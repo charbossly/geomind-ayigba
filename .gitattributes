@@ -1,1 +1,2 @@
 src/couche/restriction.geojson filter=lfs diff=lfs merge=lfs -text
+src/couche/parcelles.geojson filter=lfs diff=lfs merge=lfs -text
