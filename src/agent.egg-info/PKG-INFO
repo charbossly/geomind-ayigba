@@ -1,0 +1,22 @@
+Metadata-Version: 2.4
+Name: agent
+Version: 0.0.1
+Summary: Backend for the LangGraph agent
+Author-email: Philipp Schmid <schmidphilipp1995@gmail.com>
+License: MIT
+Requires-Python: <4.0,>=3.11
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: langgraph>=0.2.6
+Requires-Dist: langchain>=0.3.19
+Requires-Dist: langchain-google-genai
+Requires-Dist: python-dotenv>=1.0.1
+Requires-Dist: langgraph-sdk>=0.1.57
+Requires-Dist: langgraph-cli
+Requires-Dist: langgraph-api
+Requires-Dist: fastapi
+Requires-Dist: google-genai
+Provides-Extra: dev
+Requires-Dist: mypy>=1.11.1; extra == "dev"
+Requires-Dist: ruff>=0.6.1; extra == "dev"
+Dynamic: license-file

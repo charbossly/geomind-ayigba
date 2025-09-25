@@ -1,0 +1,6036 @@
+{
+  "type": "FeatureCollection",
+  "name": "enregistrement individuel",
+  "crs": {
+    "type": "name",
+    "properties": {
+      "name": "urn:ogc:def:crs:EPSG::4326"
+    }
+  },
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 170,
+        "CODE INSAE": "0310244",
+        "DEPARTEMENT": "ATLANTIQUE",
+        "COMMUNE": "ABOMEY CALAVI",
+        "ARRONDISSEMENT": "GODOMEY",
+        "VILLAGE_QUARTIER": "TOGBE KPEVI",
+        "CODE_BLOC": "IR082-03102440009",
+        "CODE_PARCELLE": "0009",
+        "CODE_EQUIPE": null,
+        "SUPERFICIE": 324,
+        "EL_NUMERO_ETAT_LIEUX": null,
+        "EL_LOT": "567",
+        "EL_LETTRE_PARCELLE": "a",
+        "RFU_QUARTIER_OU_ZONE": null,
+        "RFU_ILOT": null,
+        "RFU_LETTRE_PARCELLE": null,
+        "DATE_COLLECTE": null,
+        "NOM_LOTISSEMENT": null,
+        "CODE EQUIPE": "1582",
+        "CODE BLOC": "IR082-03102440009",
+        "CODE PARCELLE": "0009",
+        "TYPE DE PARCELLE": "Parcelle privée",
+        "NATURE DE LA PARCELLE": "Individuelle",
+        "TYPE DE DROIT": "Propriété présumée",
+        "TYPE DE PERSONNE": "Personne physique",
+        "SEXE": "Féminin"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              2.3167746075213214,
+              6.351873812824175
+            ],
+            [
+              2.316987426110665,
+              6.351890185761126
+            ],
+            [
+              2.3169943364015504,
+              6.351778052800654
+            ],
+            [
+              2.316753441773894,
+              6.351761303695538
+            ],
+            [
+              2.3167490491953258,
+              6.35184540313447
+            ],
+            [
+              2.3167746075213214,
+              6.351873812824175
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 173,
+        "CODE INSAE": "0340605",
+        "DEPARTEMENT": "ATLANTIQUE",
+        "COMMUNE": "OUIDAH",
+        "ARRONDISSEMENT": "SAVI",
+        "VILLAGE_QUARTIER": "HOUEYIHO",
+        "CODE_BLOC": "IR088-03406050011",
+        "CODE_PARCELLE": "0011",
+        "CODE_EQUIPE": "1302",
+        "SUPERFICIE": 11484,
+        "EL_NUMERO_ETAT_LIEUX": "",
+        "EL_LOT": "",
+        "EL_LETTRE_PARCELLE": "",
+        "RFU_QUARTIER_OU_ZONE": "HOUEYIHO",
+        "RFU_ILOT": null,
+        "RFU_LETTRE_PARCELLE": null,
+        "DATE_COLLECTE": null,
+        "NOM_LOTISSEMENT": "",
+        "CODE EQUIPE": "1302",
+        "CODE BLOC": "IR088-03406050011",
+        "CODE PARCELLE": "0011",
+        "TYPE DE PARCELLE": "Parcelle privée",
+        "NATURE DE LA PARCELLE": "Individuelle",
+        "TYPE DE DROIT": "Propriété présumée",
+        "TYPE DE PERSONNE": "Personne physique",
+        "SEXE": "Masculin"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              2.09317438688622,
+              6.423727845390126
+            ],
+            [
+              2.0936853488885085,
+              6.423137454445971
+            ],
+            [
+              2.0937478540593824,
+              6.423038603028768
+            ],
+            [
+              2.0935337336717685,
+              6.422893376271891
+            ],
+            [
+              2.0929779088515685,
+              6.422643152389309
+            ],
+            [
+              2.092933542566595,
+              6.4226226265168815
+            ],
+            [
+              2.0926142178500693,
+              6.422958346191275
+            ],
+            [
+              2.0925560472527636,
+              6.423009714924658
+            ],
+            [
+              2.092432862129039,
+              6.423123674201824
+            ],
+            [
+              2.092272690844516,
+              6.42337524547005
+            ],
+            [
+              2.0924402420661226,
+              6.423488178894097
+            ],
+            [
+              2.0929394452769605,
+              6.423710827830036
+            ],
+            [
+              2.09317438688622,
+              6.423727845390126
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 175,
+        "CODE INSAE": "0310244",
+        "DEPARTEMENT": "ATLANTIQUE",
+        "COMMUNE": "ABOMEY CALAVI",
+        "ARRONDISSEMENT": "GODOMEY",
+        "VILLAGE_QUARTIER": "TOGBIN KPEVI",
+        "CODE_BLOC": "IR082-03102440004",
+        "CODE_PARCELLE": "0004",
+        "CODE_EQUIPE": "1582",
+        "SUPERFICIE": 1557,
+        "EL_NUMERO_ETAT_LIEUX": null,
+        "EL_LOT": "401",
+        "EL_LETTRE_PARCELLE": "a,b,c,p",
+        "RFU_QUARTIER_OU_ZONE": null,
+        "RFU_ILOT": null,
+        "RFU_LETTRE_PARCELLE": null,
+        "DATE_COLLECTE": "2024-09-10",
+        "NOM_LOTISSEMENT": null,
+        "CODE EQUIPE": "1582",
+        "CODE BLOC": "IR082-03102440004",
+        "CODE PARCELLE": "0004",
+        "TYPE DE PARCELLE": "Parcelle privée",
+        "NATURE DE LA PARCELLE": "Individuelle",
+        "TYPE DE DROIT": "Propriété présumée",
+        "TYPE DE PERSONNE": "Personne physique",
+        "SEXE": "Masculin"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              2.3134350349870223,
+              6.352945078321903
+            ],
+            [
+              2.313459685076928,
+              6.352977113554254
+            ],
+            [
+              2.3137990385877916,
+              6.353026675481458
+            ],
+            [
+              2.3138273351774528,
+              6.353002243619506
+            ],
+            [
+              2.313849841116751,
+              6.352749769882596
+            ],
+            [
+              2.3136279551045926,
+              6.352759878060426
+            ],
+            [
+              2.313625946880912,
+              6.352637850739049
+            ],
+            [
+              2.3134005559371493,
+              6.352632033983904
+            ],
+            [
+              2.3134350349870223,
+              6.352945078321903
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 176,
+        "CODE INSAE": "0310244",
+        "DEPARTEMENT": "ATLANTIQUE",
+        "COMMUNE": "ABOMEY CALAVI",
+        "ARRONDISSEMENT": "GODOMEY",
+        "VILLAGE_QUARTIER": "TOGBE KPEVI",
+        "CODE_BLOC": "IR082-03102440008",
+        "CODE_PARCELLE": "0008",
+        "CODE_EQUIPE": null,
+        "SUPERFICIE": 379,
+        "EL_NUMERO_ETAT_LIEUX": null,
+        "EL_LOT": "567",
+        "EL_LETTRE_PARCELLE": "n",
+        "RFU_QUARTIER_OU_ZONE": null,
+        "RFU_ILOT": null,
+        "RFU_LETTRE_PARCELLE": null,
+        "DATE_COLLECTE": null,
+        "NOM_LOTISSEMENT": null,
+        "CODE EQUIPE": "1582",
+        "CODE BLOC": "IR082-03102440008",
+        "CODE PARCELLE": "0008",
+        "TYPE DE PARCELLE": "Parcelle privée",
+        "NATURE DE LA PARCELLE": "Individuelle",
+        "TYPE DE DROIT": "Propriété présumée",
+        "TYPE DE PERSONNE": "Personne physique",
+        "SEXE": "Féminin"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              2.316753441773894,
+              6.351761303695538
+            ],
+            [
+              2.3169943364015504,
+              6.351778052800654
+            ],
+            [
+              2.3170021898463786,
+              6.351650615215167
+            ],
+            [
+              2.316760114789614,
+              6.351633543352131
+            ],
+            [
+              2.316753441773894,
+              6.351761303695538
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 178,
+        "CODE INSAE": "0310814",
+        "DEPARTEMENT": "ATLANTIQUE",
+        "COMMUNE": "ABOMEY-CALAVI",
+        "ARRONDISSEMENT": "ZINVIE",
+        "VILLAGE_QUARTIER": "ZINVIE-FANDJI",
+        "CODE_BLOC": "IR102-03108140007",
+        "CODE_PARCELLE": "0007",
+        "CODE_EQUIPE": "1302",
+        "SUPERFICIE": 501,
+        "EL_NUMERO_ETAT_LIEUX": "",
+        "EL_LOT": "",
+        "EL_LETTRE_PARCELLE": "",
+        "RFU_QUARTIER_OU_ZONE": "",
+        "RFU_ILOT": null,
+        "RFU_LETTRE_PARCELLE": null,
+        "DATE_COLLECTE": null,
+        "NOM_LOTISSEMENT": "",
+        "CODE EQUIPE": "1302",
+        "CODE BLOC": "IR102-03108140007",
+        "CODE PARCELLE": "0007",
+        "TYPE DE PARCELLE": "Parcelle privée",
+        "NATURE DE LA PARCELLE": "Individuelle",
+        "TYPE DE DROIT": "Propriété présumée",
+        "TYPE DE PERSONNE": "Personne physique",
+        "SEXE": "Masculin"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              2.34427507036499,
+              6.617967857893329
+            ],
+            [
+              2.3442899996638547,
+              6.617676652826383
+            ],
+            [
+              2.344216925926771,
+              6.617674181607233
+            ],
+            [
+              2.3441493833469216,
+              6.617672540378988
+            ],
+            [
+              2.344134795811193,
+              6.617964206360362
+            ],
+            [
+              2.34427507036499,
+              6.617967857893329
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 179,
+        "CODE INSAE": "0345203",
+        "DEPARTEMENT": "ATLANTIQUE",
+        "COMMUNE": "OUIDAH",
+        "ARRONDISSEMENT": "OUIDAH II",
+        "VILLAGE_QUARTIER": "GBENA-NORD",
+        "CODE_BLOC": "IR036-03452030013",
+        "CODE_PARCELLE": "0013",
+        "CODE_EQUIPE": "1302",
+        "SUPERFICIE": 124285,
+        "EL_NUMERO_ETAT_LIEUX": "",
+        "EL_LOT": "",
+        "EL_LETTRE_PARCELLE": "",
+        "RFU_QUARTIER_OU_ZONE": "",
+        "RFU_ILOT": null,
+        "RFU_LETTRE_PARCELLE": null,
+        "DATE_COLLECTE": null,
+        "NOM_LOTISSEMENT": "",
+        "CODE EQUIPE": "1302",
+        "CODE BLOC": "IR036-03452030013",
+        "CODE PARCELLE": "0013",
+        "TYPE DE PARCELLE": "Parcelle privée",
+        "NATURE DE LA PARCELLE": "ETAT",
+        "TYPE DE DROIT": "Propriété présumée",
+        "TYPE DE PERSONNE": "Personne morale de droit privé ",
+        "SEXE": null
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              2.072891995365443,
+              6.359339768658494
+            ],
+            [
+              2.072933040396467,
+              6.358379688016708
+            ],
+            [
+              2.0709914345523264,
+              6.358071274282547
+            ],
+            [
+              2.0700618953761527,
+              6.356054532895958
+            ],
+            [
+              2.0695245803843068,
+              6.355980588590864
+            ],
+            [
+              2.0693823813557426,
+              6.356077339551601
+            ],
+            [
+              2.0678954773417524,
+              6.357313740159699
+            ],
+            [
+              2.065934100335419,
+              6.358786931921652
+            ],
+            [
+              2.070503813540639,
+              6.35904447558634
+            ],
+            [
+              2.071600248352757,
+              6.359131789332161
+            ],
+            [
+              2.0716288296277496,
+              6.359070340573271
+            ],
+            [
+              2.0717354188023256,
+              6.3589362835511745
+            ],
+            [
+              2.071857916876253,
+              6.358841593652751
+            ],
+            [
+              2.0719880011839416,
+              6.358780746273072
+            ],
+            [
+              2.072124187101678,
+              6.358749134774666
+            ],
+            [
+              2.072227309551474,
+              6.35874412707907
+            ],
+            [
+              2.072322727756325,
+              6.358753557528778
+            ],
+            [
+              2.0724106938504185,
+              6.358774721019502
+            ],
+            [
+              2.0725097251257805,
+              6.358814468769318
+            ],
+            [
+              2.0725097251257805,
+              6.358814468769318
+            ],
+            [
+              2.0725891892859796,
+              6.358860855649273
+            ],
+            [
+              2.072648675596989,
+              6.358906216394871
+            ],
+            [
+              2.0727054068794963,
+              6.358960642142529
+            ],
+            [
+              2.0727509332497256,
+              6.3590151599741835
+            ],
+            [
+              2.0727944515778267,
+              6.359080822360692
+            ],
+            [
+              2.0728126883568505,
+              6.359120678268672
+            ],
+            [
+              2.072849737030459,
+              6.3592016469641885
+            ],
+            [
+              2.072891995365443,
+              6.359339768658494
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 180,
+        "CODE INSAE": "0310814",
+        "DEPARTEMENT": "ATLANTIQUE",
+        "COMMUNE": "ABOMEY-CALAVI",
+        "ARRONDISSEMENT": "ZINVIE",
+        "VILLAGE_QUARTIER": "ZINVIE-FANDJI",
+        "CODE_BLOC": "IR102-03108140012",
+        "CODE_PARCELLE": "0012",
+        "CODE_EQUIPE": "1302",
+        "SUPERFICIE": 502,
+        "EL_NUMERO_ETAT_LIEUX": "",
+        "EL_LOT": "",
+        "EL_LETTRE_PARCELLE": "",
+        "RFU_QUARTIER_OU_ZONE": "",
+        "RFU_ILOT": null,
+        "RFU_LETTRE_PARCELLE": null,
+        "DATE_COLLECTE": null,
+        "NOM_LOTISSEMENT": "",
+        "CODE EQUIPE": "1302",
+        "CODE BLOC": "IR102-03108140012",
+        "CODE PARCELLE": "0012",
+        "TYPE DE PARCELLE": "Parcelle privée",
+        "NATURE DE LA PARCELLE": "Individuelle",
+        "TYPE DE DROIT": "Propriété présumée",
+        "TYPE DE PERSONNE": "Personne physique",
+        "SEXE": "Féminin"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              2.344134795811193,
+              6.6179642063603605
+            ],
+            [
+              2.3441493833469416,
+              6.617672540378988
+            ],
+            [
+              2.3440090727548046,
+              6.6176688958646634
+            ],
+            [
+              2.343993897850895,
+              6.617960389326555
+            ],
+            [
+              2.344134795811193,
+              6.6179642063603605
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 183,
+        "CODE INSAE": "0310242",
+        "DEPARTEMENT": "ATLANTIQUE",
+        "COMMUNE": "ABOMEY-CALAVI",
+        "ARRONDISSEMENT": "GODOMEY",
+        "VILLAGE_QUARTIER": "TOGBIN-DAHO",
+        "CODE_BLOC": "IR033-03102420001",
+        "CODE_PARCELLE": "0001",
+        "CODE_EQUIPE": "1301",
+        "SUPERFICIE": 187420,
+        "EL_NUMERO_ETAT_LIEUX": "",
+        "EL_LOT": "",
+        "EL_LETTRE_PARCELLE": "",
+        "RFU_QUARTIER_OU_ZONE": "",
+        "RFU_ILOT": null,
+        "RFU_LETTRE_PARCELLE": null,
+        "DATE_COLLECTE": null,
+        "NOM_LOTISSEMENT": "ZONE DE PROMOTION IMMOBILERE DE _TOGBIN-DAHO_ADOUNKO",
+        "CODE EQUIPE": "1301",
+        "CODE BLOC": "IR033-03102420001",
+        "CODE PARCELLE": "0001",
+        "TYPE DE PARCELLE": "Parcelle privée",
+        "NATURE DE LA PARCELLE": "Individuelle",
+        "TYPE DE DROIT": "Propriété Présumée",
+        "TYPE DE PERSONNE": "Personne morale de droit privé",
+        "SEXE": null
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              2.308116325576501,
+              6.350827595357213
+            ],
+            [
+              2.307962957890346,
+              6.348603993813846
+            ],
+            [
+              2.307959960966985,
+              6.348591768055572
+            ],
+            [
+              2.305477538265429,
+              6.348676730999104
+            ],
+            [
+              2.3043974628820503,
+              6.3487136972991465
+            ],
+            [
+              2.303970710674852,
+              6.348728302724879
+            ],
+            [
+              2.303749590565574,
+              6.348719613929955
+            ],
+            [
+              2.3035689173216176,
+              6.348704682831402
+            ],
+            [
+              2.3033269174938584,
+              6.3486715020458035
+            ],
+            [
+              2.3012983393506916,
+              6.348380446098214
+            ],
+            [
+              2.2995293805658363,
+              6.348126278471404
+            ],
+            [
+              2.298648883538611,
+              6.34799980078386
+            ],
+            [
+              2.298639649021015,
+              6.34808342445358
+            ],
+            [
+              2.298487215469059,
+              6.349158120892991
+            ],
+            [
+              2.2983988270572207,
+              6.349314037132245
+            ],
+            [
+              2.2984069312301276,
+              6.349398157241048
+            ],
+            [
+              2.2989717999022616,
+              6.349917107471161
+            ],
+            [
+              2.2999633075897363,
+              6.349985417364152
+            ],
+            [
+              2.3004325897232496,
+              6.350092463265268
+            ],
+            [
+              2.3014172969043547,
+              6.34982180710154
+            ],
+            [
+              2.301808884517313,
+              6.349826169964738
+            ],
+            [
+              2.3037803459393458,
+              6.350106018294966
+            ],
+            [
+              2.3041053894281056,
+              6.350094894217129
+            ],
+            [
+              2.305003465417145,
+              6.350337304342625
+            ],
+            [
+              2.305664940977997,
+              6.350315725697773
+            ],
+            [
+              2.305659299419052,
+              6.350389877986756
+            ],
+            [
+              2.305875788458048,
+              6.35036150745368
+            ],
+            [
+              2.3058798419831517,
+              6.3503087150177855
+            ],
+            [
+              2.3060208772756523,
+              6.350304113997978
+            ],
+            [
+              2.3071707245480493,
+              6.350281272613327
+            ],
+            [
+              2.308116325576501,
+              6.350827595357213
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 184,
+        "CODE INSAE": "0340101",
+        "DEPARTEMENT": "ATLANTIQUE",
+        "COMMUNE": "OUIDAH",
+        "ARRONDISSEMENT": "AVLEKETE",
+        "VILLAGE_QUARTIER": "ADOUNKO",
+        "CODE_BLOC": "IR033-03401010004",
+        "CODE_PARCELLE": "0004",
+        "CODE_EQUIPE": "1301",
+        "SUPERFICIE": 206097,
+        "EL_NUMERO_ETAT_LIEUX": "",
+        "EL_LOT": "",
+        "EL_LETTRE_PARCELLE": "",
+        "RFU_QUARTIER_OU_ZONE": "",
+        "RFU_ILOT": null,
+        "RFU_LETTRE_PARCELLE": null,
+        "DATE_COLLECTE": null,
+        "NOM_LOTISSEMENT": "ZONE DE PROMOTION IMMOBILERE DE _TOGBIN-DAHO_ADOUNKO",
+        "CODE EQUIPE": "1301",
+        "CODE BLOC": "IR033-03401010004",
+        "CODE PARCELLE": "0004",
+        "TYPE DE PARCELLE": "Parcelle privée",
+        "NATURE DE LA PARCELLE": "Individuelle",
+        "TYPE DE DROIT": "Propriété Présumée",
+        "TYPE DE PERSONNE": "Personne morale de droit privé",
+        "SEXE": null
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              2.29842912154952,
+              6.349628489392978
+            ],
+            [
+              2.2984069312301276,
+              6.349398157241048
+            ],
+            [
+              2.2983988270572207,
+              6.349314037132245
+            ],
+            [
+              2.298487215469059,
+              6.349158120892991
+            ],
+            [
+              2.298639649021015,
+              6.34808342445358
+            ],
+            [
+              2.298648883538611,
+              6.34799980078386
+            ],
+            [
+              2.2977842343458525,
+              6.34787559804093
+            ],
+            [
+              2.29691165656578,
+              6.347750294311348
+            ],
+            [
+              2.296231698289854,
+              6.347639110199122
+            ],
+            [
+              2.294715868188488,
+              6.347420583756915
+            ],
+            [
+              2.2922914310902818,
+              6.347071060448793
+            ],
+            [
+              2.2915000660426603,
+              6.346957722414759
+            ],
+            [
+              2.2912130049190833,
+              6.346923632160338
+            ],
+            [
+              2.290768192598198,
+              6.346909267567228
+            ],
+            [
+              2.2904112816051128,
+              6.3469291584580825
+            ],
+            [
+              2.2894733656082775,
+              6.347021029700478
+            ],
+            [
+              2.2887518620994127,
+              6.347091701601803
+            ],
+            [
+              2.288929527214559,
+              6.348940929736288
+            ],
+            [
+              2.2890164509550637,
+              6.348940520052552
+            ],
+            [
+              2.2891415696439465,
+              6.3489160388320975
+            ],
+            [
+              2.28952880067645,
+              6.348923817256844
+            ],
+            [
+              2.2907643835004317,
+              6.349058364899534
+            ],
+            [
+              2.2941937459434287,
+              6.3489641446298215
+            ],
+            [
+              2.2943855807292044,
+              6.348981090556141
+            ],
+            [
+              2.2944938568040696,
+              6.34899054472775
+            ],
+            [
+              2.2965213973118206,
+              6.349170432860883
+            ],
+            [
+              2.2975413105024787,
+              6.349197411042519
+            ],
+            [
+              2.2982244442723183,
+              6.349335345568679
+            ],
+            [
+              2.298208865814551,
+              6.349567666328742
+            ],
+            [
+              2.29842912154952,
+              6.349628489392978
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 186,
+        "CODE INSAE": "0310203",
+        "DEPARTEMENT": "ATLANTIQUE",
+        "COMMUNE": "ABOMEY-CALAVI",
+        "ARRONDISSEMENT": "GODOMEY",
+        "VILLAGE_QUARTIER": "AGONKANMEY",
+        "CODE_BLOC": "IR073-03102030003",
+        "CODE_PARCELLE": "0003",
+        "CODE_EQUIPE": "1003",
+        "SUPERFICIE": 349,
+        "EL_NUMERO_ETAT_LIEUX": "",
+        "EL_LOT": "A-22",
+        "EL_LETTRE_PARCELLE": "k",
+        "RFU_QUARTIER_OU_ZONE": "",
+        "RFU_ILOT": null,
+        "RFU_LETTRE_PARCELLE": null,
+        "DATE_COLLECTE": null,
+        "NOM_LOTISSEMENT": "",
+        "CODE EQUIPE": "1003",
+        "CODE BLOC": "IR073-03102030003",
+        "CODE PARCELLE": "0003",
+        "TYPE DE PARCELLE": "Parcelle privée",
+        "NATURE DE LA PARCELLE": "Individuelle",
+        "TYPE DE DROIT": "Propriété présumée",
+        "TYPE DE PERSONNE": "Personne physique",
+        "SEXE": "Masculin"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              2.3417398165677508,
+              6.4074721261420295
+            ],
+            [
+              2.341874580800751,
+              6.407389332852772
+            ],
+            [
+              2.3417817317669893,
+              6.4072364336542655
+            ],
+            [
+              2.341646163644318,
+              6.407317158631759
+            ],
+            [
+              2.3417398165677508,
+              6.4074721261420295
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 187,
+        "CODE INSAE": "0310407",
+        "DEPARTEMENT": "ATLANTIQUE",
+        "COMMUNE": "ABOMEY-CALAVI",
+        "ARRONDISSEMENT": "HEVIE",
+        "VILLAGE_QUARTIER": "HOUINME",
+        "CODE_BLOC": "IR108-03104070001",
+        "CODE_PARCELLE": "0001",
+        "CODE_EQUIPE": "1302",
+        "SUPERFICIE": 497,
+        "EL_NUMERO_ETAT_LIEUX": "",
+        "EL_LOT": "",
+        "EL_LETTRE_PARCELLE": "",
+        "RFU_QUARTIER_OU_ZONE": "",
+        "RFU_ILOT": null,
+        "RFU_LETTRE_PARCELLE": null,
+        "DATE_COLLECTE": null,
+        "NOM_LOTISSEMENT": "",
+        "CODE EQUIPE": "1302",
+        "CODE BLOC": "IR108-03104070001",
+        "CODE PARCELLE": "0001",
+        "TYPE DE PARCELLE": "Parcelle privée",
+        "NATURE DE LA PARCELLE": "Individuelle",
+        "TYPE DE DROIT": "Propriété présumée",
+        "TYPE DE PERSONNE": "Personne physique",
+        "SEXE": "Masculin"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              2.243599038611959,
+              6.413253634114245
+            ],
+            [
+              2.243753637036477,
+              6.413125861997285
+            ],
+            [
+              2.24366081981423,
+              6.412961947570944
+            ],
+            [
+              2.243469351361032,
+              6.413152215639461
+            ],
+            [
+              2.243599038611959,
+              6.413253634114245
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 190,
+        "CODE INSAE": "0380807",
+        "DEPARTEMENT": "ATLANTIQUE",
+        "COMMUNE": "ZE",
+        "ARRONDISSEMENT": "SEDJE-HOUEGOUDO",
+        "VILLAGE_QUARTIER": "SEDJANNAKO",
+        "CODE_BLOC": "IR082-03808070006",
+        "CODE_PARCELLE": "0006",
+        "CODE_EQUIPE": null,
+        "SUPERFICIE": 9468,
+        "EL_NUMERO_ETAT_LIEUX": null,
+        "EL_LOT": null,
+        "EL_LETTRE_PARCELLE": null,
+        "RFU_QUARTIER_OU_ZONE": null,
+        "RFU_ILOT": null,
+        "RFU_LETTRE_PARCELLE": null,
+        "DATE_COLLECTE": null,
+        "NOM_LOTISSEMENT": null,
+        "CODE EQUIPE": "1582",
+        "CODE BLOC": "IR082-03808070006",
+        "CODE PARCELLE": "0006",
+        "TYPE DE PARCELLE": "Parcelle privée",
+        "NATURE DE LA PARCELLE": "Collective",
+        "TYPE DE DROIT": "Propriété présumée",
+        "TYPE DE PERSONNE": "Groupe Informel fermé",
+        "SEXE": null
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              2.39130932309462,
+              6.791562680560398
+            ],
+            [
+              2.3921901155177174,
+              6.7913656703752565
+            ],
+            [
+              2.392734943416663,
+              6.7912686432937726
+            ],
+            [
+              2.3925365594484407,
+              6.7909043748044535
+            ],
+            [
+              2.39244258343,
+              6.790679809896318
+            ],
+            [
+              2.391176543569091,
+              6.791086555380836
+            ],
+            [
+              2.39130932309462,
+              6.791562680560398
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 191,
+        "CODE INSAE": "0340605",
+        "DEPARTEMENT": "ATLANTIQUE",
+        "COMMUNE": "OUIDAH",
+        "ARRONDISSEMENT": "SAVI",
+        "VILLAGE_QUARTIER": "HOUEYIHO",
+        "CODE_BLOC": "IR088-03406050010",
+        "CODE_PARCELLE": "0010",
+        "CODE_EQUIPE": "1302",
+        "SUPERFICIE": 40218,
+        "EL_NUMERO_ETAT_LIEUX": "",
+        "EL_LOT": "",
+        "EL_LETTRE_PARCELLE": "",
+        "RFU_QUARTIER_OU_ZONE": "HOUEYIHO",
+        "RFU_ILOT": null,
+        "RFU_LETTRE_PARCELLE": null,
+        "DATE_COLLECTE": null,
+        "NOM_LOTISSEMENT": "",
+        "CODE EQUIPE": "1302",
+        "CODE BLOC": "IR088-03406050010",
+        "CODE PARCELLE": "0010",
+        "TYPE DE PARCELLE": "Parcelle privée",
+        "NATURE DE LA PARCELLE": "Individuelle",
+        "TYPE DE DROIT": "Propriété présumée",
+        "TYPE DE PERSONNE": "Personne physique",
+        "SEXE": "Masculin"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              2.088431496731281,
+              6.424220893647831
+            ],
+            [
+              2.0888197474749277,
+              6.423843553245819
+            ],
+            [
+              2.0890563695251356,
+              6.423612520489163
+            ],
+            [
+              2.0889101120999296,
+              6.423354762890445
+            ],
+            [
+              2.0886910841414834,
+              6.422923980439467
+            ],
+            [
+              2.0885149069285585,
+              6.42266884233061
+            ],
+            [
+              2.0884218993652466,
+              6.422597015498012
+            ],
+            [
+              2.0889152831304845,
+              6.422292676491119
+            ],
+            [
+              2.089249348167355,
+              6.42202193363475
+            ],
+            [
+              2.088704084305657,
+              6.4216614370593454
+            ],
+            [
+              2.08857723356458,
+              6.421622686599243
+            ],
+            [
+              2.0885189680552565,
+              6.4216058287363875
+            ],
+            [
+              2.088296302626218,
+              6.421506839453524
+            ],
+            [
+              2.087726942477202,
+              6.421616049347021
+            ],
+            [
+              2.0873799296537,
+              6.421663524447574
+            ],
+            [
+              2.087149873866444,
+              6.421834387834923
+            ],
+            [
+              2.0874031064968372,
+              6.422403459053434
+            ],
+            [
+              2.087003149974164,
+              6.422750045168293
+            ],
+            [
+              2.0872216547466773,
+              6.422902662969863
+            ],
+            [
+              2.0872614332042367,
+              6.422938718716693
+            ],
+            [
+              2.087811119655546,
+              6.423429131577256
+            ],
+            [
+              2.088431496731281,
+              6.424220893647831
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 192,
+        "CODE INSAE": "0310238",
+        "DEPARTEMENT": "ATLANTIQUE",
+        "COMMUNE": "ABOMEY-CALAVI",
+        "ARRONDISSEMENT": "GODOMEY",
+        "VILLAGE_QUARTIER": "SEDOMEY",
+        "CODE_BLOC": "IR073-03102380005",
+        "CODE_PARCELLE": "0005",
+        "CODE_EQUIPE": "1003",
+        "SUPERFICIE": 345,
+        "EL_NUMERO_ETAT_LIEUX": "",
+        "EL_LOT": "177T",
+        "EL_LETTRE_PARCELLE": "d",
+        "RFU_QUARTIER_OU_ZONE": "",
+        "RFU_ILOT": null,
+        "RFU_LETTRE_PARCELLE": null,
+        "DATE_COLLECTE": null,
+        "NOM_LOTISSEMENT": "",
+        "CODE EQUIPE": "1003",
+        "CODE BLOC": "IR073-03102380005",
+        "CODE PARCELLE": "0005",
+        "TYPE DE PARCELLE": "Parcelle privée",
+        "NATURE DE LA PARCELLE": "Individuelle",
+        "TYPE DE DROIT": "Propriété présumée",
+        "TYPE DE PERSONNE": "Personne physique",
+        "SEXE": "Masculin"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              2.3441469805531105,
+              6.403673830087274
+            ],
+            [
+              2.3443533365778553,
+              6.4036542485128365
+            ],
+            [
+              2.3443410972416854,
+              6.4035203787527015
+            ],
+            [
+              2.3441321800116173,
+              6.403537804029411
+            ],
+            [
+              2.3441410772048705,
+              6.4036160501306245
+            ],
+            [
+              2.3441469805531105,
+              6.403673830087274
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 193,
+        "CODE INSAE": null,
+        "DEPARTEMENT": "ATLANTIQUE",
+        "COMMUNE": "OUIDAH",
+        "ARRONDISSEMENT": "AVLEKETE",
+        "VILLAGE_QUARTIER": "ADOUNKO",
+        "CODE_BLOC": "IR033-03401010007",
+        "CODE_PARCELLE": "0007",
+        "CODE_EQUIPE": "1301",
+        "SUPERFICIE": 412586,
+        "EL_NUMERO_ETAT_LIEUX": "",
+        "EL_LOT": "",
+        "EL_LETTRE_PARCELLE": "",
+        "RFU_QUARTIER_OU_ZONE": "",
+        "RFU_ILOT": null,
+        "RFU_LETTRE_PARCELLE": null,
+        "DATE_COLLECTE": null,
+        "NOM_LOTISSEMENT": "ZONE DE PROMOTION IMMOBILERE DE _TOGBIN-DAHO_ADOUNKO",
+        "CODE EQUIPE": null,
+        "CODE BLOC": null,
+        "CODE PARCELLE": null,
+        "TYPE DE PARCELLE": null,
+        "NATURE DE LA PARCELLE": null,
+        "TYPE DE DROIT": null,
+        "TYPE DE PERSONNE": null,
+        "SEXE": null
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              2.2984317082474193,
+              6.349655338919262
+            ],
+            [
+              2.29842912154952,
+              6.349628489392978
+            ],
+            [
+              2.298208865814551,
+              6.349567666328742
+            ],
+            [
+              2.2982244442723183,
+              6.349335345568679
+            ],
+            [
+              2.2975413105024787,
+              6.349197411042519
+            ],
+            [
+              2.2965213973118206,
+              6.349170432860883
+            ],
+            [
+              2.2944938568040696,
+              6.34899054472775
+            ],
+            [
+              2.2943855807292044,
+              6.348981090556141
+            ],
+            [
+              2.2941937459434287,
+              6.3489641446298215
+            ],
+            [
+              2.2907643835004308,
+              6.349058364899534
+            ],
+            [
+              2.28952880067645,
+              6.348923817256844
+            ],
+            [
+              2.2891415696439465,
+              6.348916038832098
+            ],
+            [
+              2.2890164509550637,
+              6.348940520052552
+            ],
+            [
+              2.288929527214559,
+              6.348940929736288
+            ],
+            [
+              2.2887518620994127,
+              6.347091701601803
+            ],
+            [
+              2.2894733656082775,
+              6.347021029700478
+            ],
+            [
+              2.2904112816051128,
+              6.346929158458083
+            ],
+            [
+              2.290768192598198,
+              6.346909267567228
+            ],
+            [
+              2.2912130049190833,
+              6.346923632160338
+            ],
+            [
+              2.2915000660426603,
+              6.346957722414759
+            ],
+            [
+              2.2922914310902818,
+              6.347071060448793
+            ],
+            [
+              2.294715868188488,
+              6.347420583756915
+            ],
+            [
+              2.296231698289854,
+              6.34763911019912
+            ],
+            [
+              2.29691165656578,
+              6.347750294311348
+            ],
+            [
+              2.2977842343458525,
+              6.34787559804093
+            ],
+            [
+              2.298648883538611,
+              6.34799980078386
+            ],
+            [
+              2.298651703437031,
+              6.3479742650342015
+            ],
+            [
+              2.296041885578734,
+              6.3475898010625365
+            ],
+            [
+              2.2947624550812438,
+              6.347404255420138
+            ],
+            [
+              2.292863240431299,
+              6.3471302507208325
+            ],
+            [
+              2.2912254439092665,
+              6.346897129629741
+            ],
+            [
+              2.2909062327736622,
+              6.346874621690047
+            ],
+            [
+              2.2892724965279077,
+              6.347011231463277
+            ],
+            [
+              2.288749121093989,
+              6.347063171790474
+            ],
+            [
+              2.2869116294882406,
+              6.347245522067464
+            ],
+            [
+              2.2845175571237273,
+              6.347112251854585
+            ],
+            [
+              2.2831493423748257,
+              6.347036082825454
+            ],
+            [
+              2.2805123937824057,
+              6.346874581444221
+            ],
+            [
+              2.27925303064536,
+              6.346791580874938
+            ],
+            [
+              2.277431205956773,
+              6.346612869515056
+            ],
+            [
+              2.2753946626080177,
+              6.3464980334670935
+            ],
+            [
+              2.274851329069446,
+              6.3465658960081655
+            ],
+            [
+              2.274285007826204,
+              6.3467703232489
+            ],
+            [
+              2.274043247136574,
+              6.3468189028290265
+            ],
+            [
+              2.2726872098640056,
+              6.347067217154542
+            ],
+            [
+              2.271719783313485,
+              6.347249961279279
+            ],
+            [
+              2.2707632035933223,
+              6.347418339845649
+            ],
+            [
+              2.269928678947815,
+              6.347542526149286
+            ],
+            [
+              2.27033919596854,
+              6.347810884233051
+            ],
+            [
+              2.270488320958446,
+              6.347867101248399
+            ],
+            [
+              2.270604148217669,
+              6.347952641298909
+            ],
+            [
+              2.270904880903283,
+              6.348132437576417
+            ],
+            [
+              2.271264617534145,
+              6.348382572486821
+            ],
+            [
+              2.272182644672625,
+              6.348942228823658
+            ],
+            [
+              2.273015343043258,
+              6.349327833179284
+            ],
+            [
+              2.2734641480610094,
+              6.349425455775663
+            ],
+            [
+              2.2738801342599784,
+              6.349457946893738
+            ],
+            [
+              2.274420573004422,
+              6.3493769940103775
+            ],
+            [
+              2.274797972656568,
+              6.349105856961825
+            ],
+            [
+              2.2750802970862565,
+              6.348530054469563
+            ],
+            [
+              2.2764214021696394,
+              6.347942215644278
+            ],
+            [
+              2.277093625334568,
+              6.347893622755491
+            ],
+            [
+              2.27810821278099,
+              6.348103520943745
+            ],
+            [
+              2.279331425966307,
+              6.348768107098959
+            ],
+            [
+              2.280265552770421,
+              6.348972252304396
+            ],
+            [
+              2.280732847465942,
+              6.348987733955822
+            ],
+            [
+              2.281215231334907,
+              6.348947299224249
+            ],
+            [
+              2.281811549790409,
+              6.348819377067522
+            ],
+            [
+              2.2832826648632456,
+              6.348507589890762
+            ],
+            [
+              2.2872493672057757,
+              6.348993101113596
+            ],
+            [
+              2.2880932085646952,
+              6.348949403836912
+            ],
+            [
+              2.2895985973761603,
+              6.349014055142289
+            ],
+            [
+              2.289999254814309,
+              6.349021186141119
+            ],
+            [
+              2.290725167717298,
+              6.349083388501707
+            ],
+            [
+              2.2915199115489346,
+              6.349048881817466
+            ],
+            [
+              2.292124186198331,
+              6.3490864584032165
+            ],
+            [
+              2.292589506773953,
+              6.349095188524191
+            ],
+            [
+              2.2937352444344143,
+              6.34913673312669
+            ],
+            [
+              2.2943896124999665,
+              6.3492068736502345
+            ],
+            [
+              2.2948296120505054,
+              6.349237713398659
+            ],
+            [
+              2.295281971535025,
+              6.349368119039191
+            ],
+            [
+              2.295677157689049,
+              6.349389785294435
+            ],
+            [
+              2.2960482824352386,
+              6.3493570879121135
+            ],
+            [
+              2.2962655694611804,
+              6.349306070998659
+            ],
+            [
+              2.296519507466442,
+              6.349239955241228
+            ],
+            [
+              2.297005384460498,
+              6.34930113792804
+            ],
+            [
+              2.2973723206486145,
+              6.349320006504883
+            ],
+            [
+              2.2983094096367767,
+              6.3495974324341535
+            ],
+            [
+              2.2984317082474193,
+              6.349655338919262
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 194,
+        "CODE INSAE": "0340503",
+        "DEPARTEMENT": "ATLANTIQUE",
+        "COMMUNE": "OUIDAH",
+        "ARRONDISSEMENT": "PAHOU",
+        "VILLAGE_QUARTIER": "ADJRA-HOUNVE",
+        "CODE_BLOC": "IR102-03405030005",
+        "CODE_PARCELLE": "0005",
+        "CODE_EQUIPE": "1302",
+        "SUPERFICIE": 23950,
+        "EL_NUMERO_ETAT_LIEUX": "",
+        "EL_LOT": "",
+        "EL_LETTRE_PARCELLE": "",
+        "RFU_QUARTIER_OU_ZONE": "",
+        "RFU_ILOT": null,
+        "RFU_LETTRE_PARCELLE": null,
+        "DATE_COLLECTE": null,
+        "NOM_LOTISSEMENT": "",
+        "CODE EQUIPE": "1302",
+        "CODE BLOC": "IR102-03405030005",
+        "CODE PARCELLE": "0005",
+        "TYPE DE PARCELLE": "Parcelle privée",
+        "NATURE DE LA PARCELLE": "Individuelle",
+        "TYPE DE DROIT": "Propriété présumée",
+        "TYPE DE PERSONNE": "Personne physique",
+        "SEXE": "Masculin"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              2.2103341053438497,
+              6.456953024263193
+            ],
+            [
+              2.210502942001976,
+              6.456900871314668
+            ],
+            [
+              2.210670098144907,
+              6.456849326834234
+            ],
+            [
+              2.211061865485401,
+              6.456725186018074
+            ],
+            [
+              2.211172369702051,
+              6.456694151084999
+            ],
+            [
+              2.2113398283602343,
+              6.456642301569064
+            ],
+            [
+              2.211505888805543,
+              6.456591040401196
+            ],
+            [
+              2.2114463638411013,
+              6.456417415754397
+            ],
+            [
+              2.2114301046530134,
+              6.456369824310628
+            ],
+            [
+              2.2113814552983815,
+              6.45622924160221
+            ],
+            [
+              2.211354304115053,
+              6.456148495706887
+            ],
+            [
+              2.2113045615075135,
+              6.456005842096007
+            ],
+            [
+              2.2112778173373306,
+              6.455926781335026
+            ],
+            [
+              2.211241641490623,
+              6.455822325925623
+            ],
+            [
+              2.2112021152663153,
+              6.4557049757929335
+            ],
+            [
+              2.2111679962466906,
+              6.455608155883063
+            ],
+            [
+              2.211126148511919,
+              6.455482934846602
+            ],
+            [
+              2.211106759641305,
+              6.455429157260139
+            ],
+            [
+              2.2110601531731793,
+              6.455290856352929
+            ],
+            [
+              2.2110410641075027,
+              6.455233162851729
+            ],
+            [
+              2.2109942623614662,
+              6.455098586066619
+            ],
+            [
+              2.210986672358426,
+              6.455074518248366
+            ],
+            [
+              2.2109797980167385,
+              6.4550603156870014
+            ],
+            [
+              2.210908469036813,
+              6.454847347434253
+            ],
+            [
+              2.2107827089529786,
+              6.4549989075710945
+            ],
+            [
+              2.210760434654288,
+              6.455014777865061
+            ],
+            [
+              2.2106079050559932,
+              6.455115150203948
+            ],
+            [
+              2.210553596942716,
+              6.455151002793213
+            ],
+            [
+              2.2104694459452827,
+              6.455206441793754
+            ],
+            [
+              2.2103491401926987,
+              6.45531277280056
+            ],
+            [
+              2.210239656646325,
+              6.455385505172897
+            ],
+            [
+              2.210101454282787,
+              6.455460829582388
+            ],
+            [
+              2.209935581318353,
+              6.455560904642724
+            ],
+            [
+              2.209865226169568,
+              6.455556918377637
+            ],
+            [
+              2.2099285374138593,
+              6.455745697953369
+            ],
+            [
+              2.2099818517703382,
+              6.4559051239059935
+            ],
+            [
+              2.2100009374199083,
+              6.4559608916060425
+            ],
+            [
+              2.2100365157344117,
+              6.456066009718145
+            ],
+            [
+              2.2100570542498543,
+              6.456129159911449
+            ],
+            [
+              2.210060958803094,
+              6.456138806194941
+            ],
+            [
+              2.2101114454678528,
+              6.456288860341183
+            ],
+            [
+              2.210127237483297,
+              6.456336183484981
+            ],
+            [
+              2.2101854517739365,
+              6.456510140554398
+            ],
+            [
+              2.210193743455018,
+              6.4565342219963675
+            ],
+            [
+              2.210260136478473,
+              6.456732734333519
+            ],
+            [
+              2.210263788160886,
+              6.456743597081191
+            ],
+            [
+              2.2103341053438497,
+              6.456953024263193
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 197,
+        "CODE INSAE": "0310247",
+        "DEPARTEMENT": "ATLANTIQUE",
+        "COMMUNE": "ABOMEY CALAVI",
+        "ARRONDISSEMENT": "GODOMEY",
+        "VILLAGE_QUARTIER": "YENANDJRO",
+        "CODE_BLOC": "IR049-03102470004",
+        "CODE_PARCELLE": "0004",
+        "CODE_EQUIPE": "1302",
+        "SUPERFICIE": 329,
+        "EL_NUMERO_ETAT_LIEUX": "0380q",
+        "EL_LOT": "V-3149",
+        "EL_LETTRE_PARCELLE": "h",
+        "RFU_QUARTIER_OU_ZONE": null,
+        "RFU_ILOT": null,
+        "RFU_LETTRE_PARCELLE": null,
+        "DATE_COLLECTE": null,
+        "NOM_LOTISSEMENT": "WOMEY SECTEUR 17",
+        "CODE EQUIPE": "1302",
+        "CODE BLOC": "IR049-03102470004",
+        "CODE PARCELLE": "0004",
+        "TYPE DE PARCELLE": "Parcelle privée",
+        "NATURE DE LA PARCELLE": "Individuelle",
+        "TYPE DE DROIT": "Propriété présumée",
+        "TYPE DE PERSONNE": "Personne physique",
+        "SEXE": "Masculin"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              2.3123151275973695,
+              6.412566330114719
+            ],
+            [
+              2.3123603218817803,
+              6.412551307890855
+            ],
+            [
+              2.312461073380671,
+              6.412516293827528
+            ],
+            [
+              2.312311170551562,
+              6.4123212920202945
+            ],
+            [
+              2.312289188873495,
+              6.41232057903377
+            ],
+            [
+              2.3122406853816337,
+              6.412339339057178
+            ],
+            [
+              2.3123151275973695,
+              6.412566330114719
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 198,
+        "CODE INSAE": "0340503",
+        "DEPARTEMENT": "ATLANTIQUE",
+        "COMMUNE": "OUIDAH",
+        "ARRONDISSEMENT": "PAHOU",
+        "VILLAGE_QUARTIER": "ADJRA-HOUNVE",
+        "CODE_BLOC": "IR102-03405030004",
+        "CODE_PARCELLE": "0004",
+        "CODE_EQUIPE": "1302",
+        "SUPERFICIE": 15009,
+        "EL_NUMERO_ETAT_LIEUX": "",
+        "EL_LOT": "",
+        "EL_LETTRE_PARCELLE": "",
+        "RFU_QUARTIER_OU_ZONE": "",
+        "RFU_ILOT": null,
+        "RFU_LETTRE_PARCELLE": null,
+        "DATE_COLLECTE": null,
+        "NOM_LOTISSEMENT": "",
+        "CODE EQUIPE": "1302",
+        "CODE BLOC": "IR102-03405030004",
+        "CODE PARCELLE": "0004",
+        "TYPE DE PARCELLE": "Parcelle privée",
+        "NATURE DE LA PARCELLE": "Individuelle",
+        "TYPE DE DROIT": "Propriété présumée",
+        "TYPE DE PERSONNE": "Personne physique",
+        "SEXE": "Masculin"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              2.20421087326276,
+              6.450119812270485
+            ],
+            [
+              2.204799987755538,
+              6.449863478832115
+            ],
+            [
+              2.2048248563870763,
+              6.449852449750574
+            ],
+            [
+              2.204993311677343,
+              6.4497795074592945
+            ],
+            [
+              2.2052036694186827,
+              6.449688102962883
+            ],
+            [
+              2.205133019957401,
+              6.449524306917669
+            ],
+            [
+              2.2050623844263053,
+              6.4493604780391385
+            ],
+            [
+              2.204991916590608,
+              6.449196214367321
+            ],
+            [
+              2.204921606686867,
+              6.449032099931678
+            ],
+            [
+              2.204851571647068,
+              6.448867970730217
+            ],
+            [
+              2.2046412912950597,
+              6.4489598207214165
+            ],
+            [
+              2.204473231125922,
+              6.449033304009075
+            ],
+            [
+              2.2044482091709545,
+              6.449043799146194
+            ],
+            [
+              2.2041480534632236,
+              6.449175304172365
+            ],
+            [
+              2.2033188026680217,
+              6.449537066461838
+            ],
+            [
+              2.20421087326276,
+              6.450119812270485
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 199,
+        "CODE INSAE": "0315101",
+        "DEPARTEMENT": "ATLANTIQUE",
+        "COMMUNE": "ABOMEY-CALAVI",
+        "ARRONDISSEMENT": "ABOMEY-CALAVI",
+        "VILLAGE_QUARTIER": "AGAMANDIN",
+        "CODE_BLOC": "IR036-03151010018",
+        "CODE_PARCELLE": "0018",
+        "CODE_EQUIPE": "1302",
+        "SUPERFICIE": 656,
+        "EL_NUMERO_ETAT_LIEUX": "",
+        "EL_LOT": "118",
+        "EL_LETTRE_PARCELLE": "b",
+        "RFU_QUARTIER_OU_ZONE": "",
+        "RFU_ILOT": null,
+        "RFU_LETTRE_PARCELLE": null,
+        "DATE_COLLECTE": null,
+        "NOM_LOTISSEMENT": "",
+        "CODE EQUIPE": "1302",
+        "CODE BLOC": "IR036-03151010018",
+        "CODE PARCELLE": "0018",
+        "TYPE DE PARCELLE": "Parcelle privée",
+        "NATURE DE LA PARCELLE": "Collective",
+        "TYPE DE DROIT": "Propriété présumée",
+        "TYPE DE PERSONNE": "Personne morale de droit privé ",
+        "SEXE": null
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              2.35788372293729,
+              6.461378522828217
+            ],
+            [
+              2.358117990159056,
+              6.461378730810953
+            ],
+            [
+              2.3581255572373423,
+              6.461147696769841
+            ],
+            [
+              2.357893700265467,
+              6.461149080483425
+            ],
+            [
+              2.35788372293729,
+              6.461378522828217
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 201,
+        "CODE INSAE": "0310242",
+        "DEPARTEMENT": "ATLANTIQUE",
+        "COMMUNE": "ABOMEY-CALAVI",
+        "ARRONDISSEMENT": "GODOMEY",
+        "VILLAGE_QUARTIER": "TOGBIN-DAHO",
+        "CODE_BLOC": "IR088-03102420040",
+        "CODE_PARCELLE": "0040",
+        "CODE_EQUIPE": "1302",
+        "SUPERFICIE": 326,
+        "EL_NUMERO_ETAT_LIEUX": "0385",
+        "EL_LOT": "81",
+        "EL_LETTRE_PARCELLE": "b",
+        "RFU_QUARTIER_OU_ZONE": "TOGBIN-DAHO",
+        "RFU_ILOT": null,
+        "RFU_LETTRE_PARCELLE": null,
+        "DATE_COLLECTE": null,
+        "NOM_LOTISSEMENT": "TOGBIN ZONE 5",
+        "CODE EQUIPE": "1302",
+        "CODE BLOC": "IR088-03102420040",
+        "CODE PARCELLE": "0040",
+        "TYPE DE PARCELLE": "Parcelle privée",
+        "NATURE DE LA PARCELLE": "Individuelle",
+        "TYPE DE DROIT": "Propriété présumée",
+        "TYPE DE PERSONNE": "Personne physique",
+        "SEXE": "Féminin"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              2.3062591009071456,
+              6.355614363313549
+            ],
+            [
+              2.3064236336944433,
+              6.355612256513826
+            ],
+            [
+              2.3064414462611516,
+              6.3554547530538485
+            ],
+            [
+              2.3062699850948616,
+              6.3554542219371415
+            ],
+            [
+              2.3062591009071456,
+              6.355614363313549
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 203,
+        "CODE INSAE": "0325103",
+        "DEPARTEMENT": "ATLANTIQUE",
+        "COMMUNE": "ALLADA",
+        "ARRONDISSEMENT": "ALLADA CENTRE",
+        "VILLAGE_QUARTIER": "AVAZOUNKPA",
+        "CODE_BLOC": "IR036-03251030022",
+        "CODE_PARCELLE": "0022",
+        "CODE_EQUIPE": "1302",
+        "SUPERFICIE": 803,
+        "EL_NUMERO_ETAT_LIEUX": "",
+        "EL_LOT": "",
+        "EL_LETTRE_PARCELLE": "",
+        "RFU_QUARTIER_OU_ZONE": "",
+        "RFU_ILOT": null,
+        "RFU_LETTRE_PARCELLE": null,
+        "DATE_COLLECTE": null,
+        "NOM_LOTISSEMENT": "",
+        "CODE EQUIPE": "1302",
+        "CODE BLOC": "IR036-03251030022",
+        "CODE PARCELLE": "0022",
+        "TYPE DE PARCELLE": "Parcelle privée",
+        "NATURE DE LA PARCELLE": "Collective",
+        "TYPE DE DROIT": "Propriété présumée",
+        "TYPE DE PERSONNE": "Groupe Informel ouvert ",
+        "SEXE": null
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              2.1513726110351414,
+              6.671116526226717
+            ],
+            [
+              2.151564600377906,
+              6.671031744691412
+            ],
+            [
+              2.1514928162259053,
+              6.670865994622119
+            ],
+            [
+              2.151420758306924,
+              6.67069795970483
+            ],
+            [
+              2.151281996300145,
+              6.670757697319316
+            ],
+            [
+              2.151327926904687,
+              6.670939361532282
+            ],
+            [
+              2.1513726110351414,
+              6.671116526226717
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 204,
+        "CODE INSAE": "0315113",
+        "DEPARTEMENT": "ATLANTIQUE",
+        "COMMUNE": "ABOMEY-CALAVI",
+        "ARRONDISSEMENT": "ABOMEY-CALAVI",
+        "VILLAGE_QUARTIER": "TANKPE",
+        "CODE_BLOC": "IR072-03151130046",
+        "CODE_PARCELLE": "0046",
+        "CODE_EQUIPE": "1302",
+        "SUPERFICIE": 309,
+        "EL_NUMERO_ETAT_LIEUX": "",
+        "EL_LOT": "",
+        "EL_LETTRE_PARCELLE": "u",
+        "RFU_QUARTIER_OU_ZONE": "H-1088d",
+        "RFU_ILOT": null,
+        "RFU_LETTRE_PARCELLE": null,
+        "DATE_COLLECTE": null,
+        "NOM_LOTISSEMENT": "",
+        "CODE EQUIPE": "1302",
+        "CODE BLOC": "IR072-03151130046",
+        "CODE PARCELLE": "0046",
+        "TYPE DE PARCELLE": "Parcelle privée",
+        "NATURE DE LA PARCELLE": "Individuelle",
+        "TYPE DE DROIT": "Propriété présumée",
+        "TYPE DE PERSONNE": "Personne physique ",
+        "SEXE": "Masculin"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              2.331560726235716,
+              6.438905250376997
+            ],
+            [
+              2.331675054935251,
+              6.438829627266971
+            ],
+            [
+              2.331625458757371,
+              6.438666878455746
+            ],
+            [
+              2.3314980573277517,
+              6.438699562617054
+            ],
+            [
+              2.331560726235716,
+              6.438905250376997
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 206,
+        "CODE INSAE": "0815512",
+        "DEPARTEMENT": "LITTORAL",
+        "COMMUNE": "COTONOU",
+        "ARRONDISSEMENT": "5",
+        "VILLAGE_QUARTIER": "XWLACODJI KPODJI",
+        "CODE_BLOC": "IR033-08155120001",
+        "CODE_PARCELLE": "0001",
+        "CODE_EQUIPE": "1301",
+        "SUPERFICIE": 71320,
+        "EL_NUMERO_ETAT_LIEUX": "",
+        "EL_LOT": "",
+        "EL_LETTRE_PARCELLE": "",
+        "RFU_QUARTIER_OU_ZONE": "",
+        "RFU_ILOT": null,
+        "RFU_LETTRE_PARCELLE": null,
+        "DATE_COLLECTE": null,
+        "NOM_LOTISSEMENT": "",
+        "CODE EQUIPE": "1301",
+        "CODE BLOC": "IR033-08155120001",
+        "CODE PARCELLE": "0001",
+        "TYPE DE PARCELLE": "Parcelle privée",
+        "NATURE DE LA PARCELLE": "Individuelle",
+        "TYPE DE DROIT": "Propriété Présumée",
+        "TYPE DE PERSONNE": "Personne morale de droit privé",
+        "SEXE": null
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              2.4422205299176,
+              6.353552452505186
+            ],
+            [
+              2.443060845006827,
+              6.353536975656666
+            ],
+            [
+              2.443633234109127,
+              6.352392874727758
+            ],
+            [
+              2.4439766340501174,
+              6.351453350671968
+            ],
+            [
+              2.4425545975183005,
+              6.35141586430068
+            ],
+            [
+              2.440926523063092,
+              6.351388427565162
+            ],
+            [
+              2.4409266768440236,
+              6.35164812299809
+            ],
+            [
+              2.4407498114874464,
+              6.351636353348853
+            ],
+            [
+              2.4407100218517024,
+              6.352488974476844
+            ],
+            [
+              2.440668035178773,
+              6.353383185674771
+            ],
+            [
+              2.4422240873493655,
+              6.353464657997096
+            ],
+            [
+              2.4422205299176,
+              6.353552452505186
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 207,
+        "CODE INSAE": "0315103",
+        "DEPARTEMENT": "ATLANTIQUE",
+        "COMMUNE": "ABOMEY-CALAVI",
+        "ARRONDISSEMENT": "ABOMEY-CALAVI",
+        "VILLAGE_QUARTIER": "AIFA",
+        "CODE_BLOC": "IR103-03151030001",
+        "CODE_PARCELLE": "0001",
+        "CODE_EQUIPE": "2025",
+        "SUPERFICIE": 474,
+        "EL_NUMERO_ETAT_LIEUX": null,
+        "EL_LOT": "251",
+        "EL_LETTRE_PARCELLE": "k",
+        "RFU_QUARTIER_OU_ZONE": null,
+        "RFU_ILOT": null,
+        "RFU_LETTRE_PARCELLE": null,
+        "DATE_COLLECTE": null,
+        "NOM_LOTISSEMENT": "Lotissement la Béninoise",
+        "CODE EQUIPE": "2025",
+        "CODE BLOC": "IR103-03151030001",
+        "CODE PARCELLE": "0001",
+        "TYPE DE PARCELLE": "Parcelle privée",
+        "NATURE DE LA PARCELLE": "Individuelle",
+        "TYPE DE DROIT": "Propriété présumée",
+        "TYPE DE PERSONNE": "Personne physique",
+        "SEXE": "Masculin"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              2.330748501599931,
+              6.464199911134882
+            ],
+            [
+              2.330757730373788,
+              6.463972581182612
+            ],
+            [
+              2.3305873155349026,
+              6.463965672961823
+            ],
+            [
+              2.330579510295954,
+              6.46419490967713
+            ],
+            [
+              2.330748501599931,
+              6.464199911134882
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 208,
+        "CODE INSAE": "0310114",
+        "DEPARTEMENT": "ATLANTIQUE",
+        "COMMUNE": "ABOMEY-CALAVI",
+        "ARRONDISSEMENT": "AKASSATO",
+        "VILLAGE_QUARTIER": "ZOPAH_PALMERAIE",
+        "CODE_BLOC": "IR073-03101140002",
+        "CODE_PARCELLE": "0002",
+        "CODE_EQUIPE": "1002",
+        "SUPERFICIE": 535,
+        "EL_NUMERO_ETAT_LIEUX": "",
+        "EL_LOT": "398",
+        "EL_LETTRE_PARCELLE": "s",
+        "RFU_QUARTIER_OU_ZONE": "",
+        "RFU_ILOT": null,
+        "RFU_LETTRE_PARCELLE": null,
+        "DATE_COLLECTE": null,
+        "NOM_LOTISSEMENT": "",
+        "CODE EQUIPE": "1002",
+        "CODE BLOC": "IR073-03101140002",
+        "CODE PARCELLE": "0002",
+        "TYPE DE PARCELLE": "Parcelle privée",
+        "NATURE DE LA PARCELLE": "Individuelle",
+        "TYPE DE DROIT": "Propriété présumée",
+        "TYPE DE PERSONNE": "Personne physique",
+        "SEXE": "Feminin"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              2.3522569463795913,
+              6.505116973998466
+            ],
+            [
+              2.35227533331638,
+              6.504816802521077
+            ],
+            [
+              2.352130236720042,
+              6.504808742890495
+            ],
+            [
+              2.3521117614423104,
+              6.5051098025421465
+            ],
+            [
+              2.3522569463795913,
+              6.505116973998466
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 210,
+        "CODE INSAE": null,
+        "DEPARTEMENT": "ATLANTIQUE",
+        "COMMUNE": "ABOMEY-CALAVI",
+        "ARRONDISSEMENT": "AKASSATO",
+        "VILLAGE_QUARTIER": "ZOPAH",
+        "CODE_BLOC": "IR082-03101140025",
+        "CODE_PARCELLE": "0025",
+        "CODE_EQUIPE": "1582",
+        "SUPERFICIE": 535,
+        "EL_NUMERO_ETAT_LIEUX": null,
+        "EL_LOT": "242",
+        "EL_LETTRE_PARCELLE": "a",
+        "RFU_QUARTIER_OU_ZONE": null,
+        "RFU_ILOT": null,
+        "RFU_LETTRE_PARCELLE": null,
+        "DATE_COLLECTE": null,
+        "NOM_LOTISSEMENT": "LOTISSEMENT DE ZOPAH",
+        "CODE EQUIPE": null,
+        "CODE BLOC": null,
+        "CODE PARCELLE": null,
+        "TYPE DE PARCELLE": null,
+        "NATURE DE LA PARCELLE": null,
+        "TYPE DE DROIT": null,
+        "TYPE DE PERSONNE": null,
+        "SEXE": null
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              2.358410041333533,
+              6.492225961860923
+            ],
+            [
+              2.3584195682223577,
+              6.4920790793706
+            ],
+            [
+              2.3581195535790087,
+              6.49206227587217
+            ],
+            [
+              2.3581117697174006,
+              6.492206608025185
+            ],
+            [
+              2.358410041333533,
+              6.492225961860923
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 212,
+        "CODE INSAE": "0310207",
+        "DEPARTEMENT": "ATLANTIQUE",
+        "COMMUNE": "ABOMEY-CALAVI",
+        "ARRONDISSEMENT": "GODOMEY",
+        "VILLAGE_QUARTIER": "TOGOUDO LIEUDIT ASSROSSA",
+        "CODE_BLOC": "IR103-03102070012",
+        "CODE_PARCELLE": "0012",
+        "CODE_EQUIPE": "2025",
+        "SUPERFICIE": 230,
+        "EL_NUMERO_ETAT_LIEUX": "",
+        "EL_LOT": "B-257",
+        "EL_LETTRE_PARCELLE": "m et m'",
+        "RFU_QUARTIER_OU_ZONE": "",
+        "RFU_ILOT": null,
+        "RFU_LETTRE_PARCELLE": null,
+        "DATE_COLLECTE": null,
+        "NOM_LOTISSEMENT": null,
+        "CODE EQUIPE": "2025",
+        "CODE BLOC": "IR103-03102070012",
+        "CODE PARCELLE": "0012",
+        "TYPE DE PARCELLE": "Parcelle privée",
+        "NATURE DE LA PARCELLE": "Individuelle",
+        "TYPE DE DROIT": "Propriété présumée",
+        "TYPE DE PERSONNE": "Personne physique",
+        "SEXE": "Masculin"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              2.323904919331952,
+              6.404292502566621
+            ],
+            [
+              2.3239701498043672,
+              6.4042714314466345
+            ],
+            [
+              2.3239162331636978,
+              6.404108998802639
+            ],
+            [
+              2.323794611985077,
+              6.404147893191932
+            ],
+            [
+              2.323788648360427,
+              6.404175556217265
+            ],
+            [
+              2.323904919331952,
+              6.404292502566621
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 214,
+        "CODE INSAE": "0310114",
+        "DEPARTEMENT": "ATLANTIQUE",
+        "COMMUNE": "ABOMEY-CALAVI",
+        "ARRONDISSEMENT": "AKASSATO",
+        "VILLAGE_QUARTIER": "ZOPAH",
+        "CODE_BLOC": "IR082-03101140020",
+        "CODE_PARCELLE": "0020",
+        "CODE_EQUIPE": "1582",
+        "SUPERFICIE": 540,
+        "EL_NUMERO_ETAT_LIEUX": null,
+        "EL_LOT": "242",
+        "EL_LETTRE_PARCELLE": "b",
+        "RFU_QUARTIER_OU_ZONE": null,
+        "RFU_ILOT": null,
+        "RFU_LETTRE_PARCELLE": null,
+        "DATE_COLLECTE": null,
+        "NOM_LOTISSEMENT": "LOTISSEMENT DE ZOPAH",
+        "CODE EQUIPE": "1582",
+        "CODE BLOC": "IR082-03101140020",
+        "CODE PARCELLE": "0020",
+        "TYPE DE PARCELLE": "Parcelle privée",
+        "NATURE DE LA PARCELLE": "Individuelle",
+        "TYPE DE DROIT": "Propriété présumée",
+        "TYPE DE PERSONNE": "Personne physique",
+        "SEXE": "Masculin"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              2.3587072871084227,
+              6.49224524895821
+            ],
+            [
+              2.358715773761011,
+              6.492095669350706
+            ],
+            [
+              2.3584195682223577,
+              6.4920790793706
+            ],
+            [
+              2.358410041333533,
+              6.492225961860923
+            ],
+            [
+              2.3587072871084227,
+              6.49224524895821
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 215,
+        "CODE INSAE": "0315101",
+        "DEPARTEMENT": "ATLANTIQUE",
+        "COMMUNE": "ABOMEY-CALAVI",
+        "ARRONDISSEMENT": "ABOMEY-CALAVI",
+        "VILLAGE_QUARTIER": "AGAMANDIN",
+        "CODE_BLOC": "IR036-03151010019",
+        "CODE_PARCELLE": "0019",
+        "CODE_EQUIPE": "1302",
+        "SUPERFICIE": 1023,
+        "EL_NUMERO_ETAT_LIEUX": "",
+        "EL_LOT": "118",
+        "EL_LETTRE_PARCELLE": "o n",
+        "RFU_QUARTIER_OU_ZONE": "",
+        "RFU_ILOT": null,
+        "RFU_LETTRE_PARCELLE": null,
+        "DATE_COLLECTE": null,
+        "NOM_LOTISSEMENT": "",
+        "CODE EQUIPE": "1302",
+        "CODE BLOC": "IR036-03151010019",
+        "CODE PARCELLE": "0019",
+        "TYPE DE PARCELLE": "Parcelle privée",
+        "NATURE DE LA PARCELLE": "Collective",
+        "TYPE DE DROIT": "Propriété présumée",
+        "TYPE DE PERSONNE": "Groupe Informel ouvert",
+        "SEXE": null
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              2.3581221637843175,
+              6.461251303952304
+            ],
+            [
+              2.3583541728495416,
+              6.461251442293309
+            ],
+            [
+              2.358369971428364,
+              6.4608940340031245
+            ],
+            [
+              2.358133873584107,
+              6.460893785849123
+            ],
+            [
+              2.3581221637843175,
+              6.461251303952304
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 221,
+        "CODE INSAE": "0310701",
+        "DEPARTEMENT": "ATLANTIQUE",
+        "COMMUNE": "ABOMEY-CALAVI",
+        "ARRONDISSEMENT": "TOGBA",
+        "VILLAGE_QUARTIER": "AHOSSOUGBETA",
+        "CODE_BLOC": "IR072-03107010050",
+        "CODE_PARCELLE": "0050",
+        "CODE_EQUIPE": "1302",
+        "SUPERFICIE": 472,
+        "EL_NUMERO_ETAT_LIEUX": "EL 1656g",
+        "EL_LOT": "M-1936",
+        "EL_LETTRE_PARCELLE": "O",
+        "RFU_QUARTIER_OU_ZONE": "",
+        "RFU_ILOT": null,
+        "RFU_LETTRE_PARCELLE": null,
+        "DATE_COLLECTE": null,
+        "NOM_LOTISSEMENT": "",
+        "CODE EQUIPE": "1302",
+        "CODE BLOC": "IR072-03107010050",
+        "CODE PARCELLE": "0050",
+        "TYPE DE PARCELLE": "Parcelle privée",
+        "NATURE DE LA PARCELLE": "Individuelle",
+        "TYPE DE DROIT": "Propriété présumée",
+        "TYPE DE PERSONNE": "Personne physique ",
+        "SEXE": "Masculin"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              2.323253011555302,
+              6.458935141329539
+            ],
+            [
+              2.323204065394731,
+              6.458773698244606
+            ],
+            [
+              2.32293978720061,
+              6.4588581997263494
+            ],
+            [
+              2.3229700322107116,
+              6.458962696724416
+            ],
+            [
+              2.323253011555302,
+              6.458935141329539
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 222,
+        "CODE INSAE": "0310114",
+        "DEPARTEMENT": "ATLANTIQUE",
+        "COMMUNE": "ABOMEY-CALAVI",
+        "ARRONDISSEMENT": "AKASSATO",
+        "VILLAGE_QUARTIER": "ZOPAH",
+        "CODE_BLOC": "IR082-03101140021",
+        "CODE_PARCELLE": "0021",
+        "CODE_EQUIPE": "1582",
+        "SUPERFICIE": 543,
+        "EL_NUMERO_ETAT_LIEUX": null,
+        "EL_LOT": "242",
+        "EL_LETTRE_PARCELLE": "c",
+        "RFU_QUARTIER_OU_ZONE": null,
+        "RFU_ILOT": null,
+        "RFU_LETTRE_PARCELLE": null,
+        "DATE_COLLECTE": null,
+        "NOM_LOTISSEMENT": "LOTISSEMENT DE ZOPAH",
+        "CODE EQUIPE": "1582",
+        "CODE BLOC": "IR082-03101140021",
+        "CODE PARCELLE": "0021",
+        "TYPE DE PARCELLE": "Parcelle privée",
+        "NATURE DE LA PARCELLE": "Individuelle",
+        "TYPE DE DROIT": "Propriété présumée",
+        "TYPE DE PERSONNE": "Personne physique",
+        "SEXE": "Féminin"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              2.3586988607561064,
+              6.492393765592405
+            ],
+            [
+              2.3587072871084227,
+              6.49224524895821
+            ],
+            [
+              2.358410041333533,
+              6.492225961860923
+            ],
+            [
+              2.3584004135002,
+              6.49237440052759
+            ],
+            [
+              2.3586988607561064,
+              6.492393765592405
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 223,
+        "CODE INSAE": "0310220",
+        "DEPARTEMENT": "ATLANTIQUE",
+        "COMMUNE": "ABOMEY-CALAVI",
+        "ARRONDISSEMENT": "GODOMEY",
+        "VILLAGE_QUARTIER": "GBEGNIGAN-MIDOKPO",
+        "CODE_BLOC": "IR102-03102200014",
+        "CODE_PARCELLE": "0014",
+        "CODE_EQUIPE": "1302",
+        "SUPERFICIE": 1293,
+        "EL_NUMERO_ETAT_LIEUX": "0029b",
+        "EL_LOT": "B-273",
+        "EL_LETTRE_PARCELLE": "c",
+        "RFU_QUARTIER_OU_ZONE": "",
+        "RFU_ILOT": null,
+        "RFU_LETTRE_PARCELLE": null,
+        "DATE_COLLECTE": null,
+        "NOM_LOTISSEMENT": "",
+        "CODE EQUIPE": "1302",
+        "CODE BLOC": "IR102-03102200014",
+        "CODE PARCELLE": "0014",
+        "TYPE DE PARCELLE": "Parcelle privée",
+        "NATURE DE LA PARCELLE": "Individuelle",
+        "TYPE DE DROIT": "Propriété présumée",
+        "TYPE DE PERSONNE": "Personne physique",
+        "SEXE": "Masculin"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              2.327283946271382,
+              6.401974889785862
+            ],
+            [
+              2.3272781674786938,
+              6.401707680198648
+            ],
+            [
+              2.327324936635375,
+              6.401666789462137
+            ],
+            [
+              2.3270732957189453,
+              6.401372133920362
+            ],
+            [
+              2.326900989101081,
+              6.401517878877239
+            ],
+            [
+              2.327283946271382,
+              6.401974889785862
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 229,
+        "CODE INSAE": "0310814",
+        "DEPARTEMENT": "ATLANTIQUE",
+        "COMMUNE": "ABOMEY-CALAVI",
+        "ARRONDISSEMENT": "ZINVIE",
+        "VILLAGE_QUARTIER": "ZINVIE-FANDJI",
+        "CODE_BLOC": "IR102-03108140009",
+        "CODE_PARCELLE": "0009",
+        "CODE_EQUIPE": "1302",
+        "SUPERFICIE": 501,
+        "EL_NUMERO_ETAT_LIEUX": "",
+        "EL_LOT": "",
+        "EL_LETTRE_PARCELLE": "",
+        "RFU_QUARTIER_OU_ZONE": "",
+        "RFU_ILOT": null,
+        "RFU_LETTRE_PARCELLE": null,
+        "DATE_COLLECTE": null,
+        "NOM_LOTISSEMENT": "",
+        "CODE EQUIPE": "1302",
+        "CODE BLOC": "IR102-03108140009",
+        "CODE PARCELLE": "0009",
+        "TYPE DE PARCELLE": "Parcelle privée",
+        "NATURE DE LA PARCELLE": "Individuelle",
+        "TYPE DE DROIT": "Propriété présumée",
+        "TYPE DE PERSONNE": "Personne physique",
+        "SEXE": "Féminin"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              2.344216925926771,
+              6.617674181607233
+            ],
+            [
+              2.344226227706006,
+              6.617483090459244
+            ],
+            [
+              2.3440123421946724,
+              6.617477264997907
+            ],
+            [
+              2.3440032251797596,
+              6.617668728473794
+            ],
+            [
+              2.3440090727822214,
+              6.617668895338053
+            ],
+            [
+              2.3441493833469416,
+              6.617672540378988
+            ],
+            [
+              2.344216925926771,
+              6.617674181607233
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 231,
+        "CODE INSAE": "0310814",
+        "DEPARTEMENT": "ATLANTIQUE",
+        "COMMUNE": "ABOMEY-CALAVI",
+        "ARRONDISSEMENT": "ZINVIE",
+        "VILLAGE_QUARTIER": "ZINVIE-FANDJI",
+        "CODE_BLOC": "IR102-03108140013",
+        "CODE_PARCELLE": "0013",
+        "CODE_EQUIPE": "1302",
+        "SUPERFICIE": 487,
+        "EL_NUMERO_ETAT_LIEUX": "",
+        "EL_LOT": "",
+        "EL_LETTRE_PARCELLE": "",
+        "RFU_QUARTIER_OU_ZONE": "",
+        "RFU_ILOT": null,
+        "RFU_LETTRE_PARCELLE": null,
+        "DATE_COLLECTE": null,
+        "NOM_LOTISSEMENT": "",
+        "CODE EQUIPE": "1302",
+        "CODE BLOC": "IR102-03108140013",
+        "CODE PARCELLE": "0013",
+        "TYPE DE PARCELLE": "Parcelle privée",
+        "NATURE DE LA PARCELLE": "Individuelle",
+        "TYPE DE DROIT": "Propriété présumée",
+        "TYPE DE PERSONNE": "Personne physique",
+        "SEXE": "Féminin"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              2.3437415303425726,
+              6.617367728802567
+            ],
+            [
+              2.3438854969057705,
+              6.617315945936693
+            ],
+            [
+              2.3438343692829053,
+              6.617104642796637
+            ],
+            [
+              2.3436611101843776,
+              6.617154725907785
+            ],
+            [
+              2.3436369290987487,
+              6.617160650495566
+            ],
+            [
+              2.3437415303425726,
+              6.617367728802567
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 259,
+        "CODE INSAE": "0345205",
+        "DEPARTEMENT": "ATLANTIQUE",
+        "COMMUNE": "OUIDAH",
+        "ARRONDISSEMENT": "OUIDAH II",
+        "VILLAGE_QUARTIER": "GBETO-NORD",
+        "CODE_BLOC": "IR072-03452050055",
+        "CODE_PARCELLE": "0055",
+        "CODE_EQUIPE": "1302",
+        "SUPERFICIE": 420,
+        "EL_NUMERO_ETAT_LIEUX": "",
+        "EL_LOT": "92",
+        "EL_LETTRE_PARCELLE": "p",
+        "RFU_QUARTIER_OU_ZONE": "",
+        "RFU_ILOT": "",
+        "RFU_LETTRE_PARCELLE": "",
+        "DATE_COLLECTE": null,
+        "NOM_LOTISSEMENT": "",
+        "CODE EQUIPE": "1302",
+        "CODE BLOC": "IR072-03452050055",
+        "CODE PARCELLE": "0055",
+        "TYPE DE PARCELLE": "Parcelle privée",
+        "NATURE DE LA PARCELLE": "Individuelle",
+        "TYPE DE DROIT": "Propriété présumée",
+        "TYPE DE PERSONNE": "Personne physique",
+        "SEXE": "Féminin"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              2.0745253802378927,
+              6.381220504565021
+            ],
+            [
+              2.0746137565203346,
+              6.38104518965439
+            ],
+            [
+              2.0744556728655206,
+              6.380968294294202
+            ],
+            [
+              2.074368294655043,
+              6.38114162105827
+            ],
+            [
+              2.0745253802378927,
+              6.381220504565021
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 258,
+        "CODE INSAE": "0310807",
+        "DEPARTEMENT": "ATLANTQUE",
+        "COMMUNE": "ABOMEY-CALAVI",
+        "ARRONDISSEMENT": "ZINVIE",
+        "VILLAGE_QUARTIER": "KPOTOMEY",
+        "CODE_BLOC": "IR077-03108070011",
+        "CODE_PARCELLE": "0011",
+        "CODE_EQUIPE": null,
+        "SUPERFICIE": 1051,
+        "EL_NUMERO_ETAT_LIEUX": null,
+        "EL_LOT": null,
+        "EL_LETTRE_PARCELLE": null,
+        "RFU_QUARTIER_OU_ZONE": null,
+        "RFU_ILOT": null,
+        "RFU_LETTRE_PARCELLE": null,
+        "DATE_COLLECTE": null,
+        "NOM_LOTISSEMENT": null,
+        "CODE EQUIPE": null,
+        "CODE BLOC": "IR077-03108070011",
+        "CODE PARCELLE": "0011",
+        "TYPE DE PARCELLE": "Parcelle privée",
+        "NATURE DE LA PARCELLE": "Individuelle",
+        "TYPE DE DROIT": "Propriété présumée",
+        "TYPE DE PERSONNE": "Personne physique",
+        "SEXE": "Masculin"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              2.353853518793701,
+              6.63862053799343
+            ],
+            [
+              2.3542723066320765,
+              6.638599012667043
+            ],
+            [
+              2.354258062258154,
+              6.6383531364226425
+            ],
+            [
+              2.353926627093145,
+              6.638402364511613
+            ],
+            [
+              2.353853518793701,
+              6.63862053799343
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 234,
+        "CODE INSAE": "0310814",
+        "DEPARTEMENT": "ATLANTIQUE",
+        "COMMUNE": "ABOMEY-CALAVI",
+        "ARRONDISSEMENT": "ZINVIE",
+        "VILLAGE_QUARTIER": "ZINVIE-FANDJI",
+        "CODE_BLOC": "IR102-03108140008",
+        "CODE_PARCELLE": "0008",
+        "CODE_EQUIPE": "1302",
+        "SUPERFICIE": 504,
+        "EL_NUMERO_ETAT_LIEUX": "",
+        "EL_LOT": "",
+        "EL_LETTRE_PARCELLE": "",
+        "RFU_QUARTIER_OU_ZONE": "",
+        "RFU_ILOT": null,
+        "RFU_LETTRE_PARCELLE": null,
+        "DATE_COLLECTE": null,
+        "NOM_LOTISSEMENT": "",
+        "CODE EQUIPE": "1302",
+        "CODE BLOC": "IR102-03108140008",
+        "CODE PARCELLE": "0008",
+        "TYPE DE PARCELLE": "Parcelle privée",
+        "NATURE DE LA PARCELLE": "Individuelle",
+        "TYPE DE DROIT": "Propriété présumée",
+        "TYPE DE PERSONNE": "Personne physique",
+        "SEXE": "Féminin"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              2.3440032251797596,
+              6.61766872847379
+            ],
+            [
+              2.3440123421946724,
+              6.617477264997907
+            ],
+            [
+              2.343937195740009,
+              6.6174753144824585
+            ],
+            [
+              2.3439434610809085,
+              6.617498843626846
+            ],
+            [
+              2.343751085140533,
+              6.617539375164919
+            ],
+            [
+              2.3437398593690353,
+              6.61766229743005
+            ],
+            [
+              2.3438696205613136,
+              6.617666091587622
+            ],
+            [
+              2.3440032251797596,
+              6.61766872847379
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 235,
+        "CODE INSAE": "0310244",
+        "DEPARTEMENT": "ATLANTIQUE",
+        "COMMUNE": "ABOMEY-CALAVI",
+        "ARRONDISSEMENT": "GODOMEY",
+        "VILLAGE_QUARTIER": "TOGBIN-KPEVI",
+        "CODE_BLOC": "IR103-03102440004",
+        "CODE_PARCELLE": "0004",
+        "CODE_EQUIPE": "2025",
+        "SUPERFICIE": 250,
+        "EL_NUMERO_ETAT_LIEUX": "9457a",
+        "EL_LOT": "195",
+        "EL_LETTRE_PARCELLE": "c",
+        "RFU_QUARTIER_OU_ZONE": "Zone 1",
+        "RFU_ILOT": null,
+        "RFU_LETTRE_PARCELLE": null,
+        "DATE_COLLECTE": null,
+        "NOM_LOTISSEMENT": "GODOMEY 2ème Tranche",
+        "CODE EQUIPE": "2025",
+        "CODE BLOC": "IR103-03102440004",
+        "CODE PARCELLE": "0004",
+        "TYPE DE PARCELLE": "Parcelle privée",
+        "NATURE DE LA PARCELLE": "Individuelle",
+        "TYPE DE DROIT": "Propriété présumée",
+        "TYPE DE PERSONNE": "Personne physique",
+        "SEXE": "Féminin"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              2.316692378511085,
+              6.360491910995374
+            ],
+            [
+              2.316808622861416,
+              6.3604783851337094
+            ],
+            [
+              2.3167878185992645,
+              6.3603326414637875
+            ],
+            [
+              2.3167567795868047,
+              6.360309696402193
+            ],
+            [
+              2.3166625580325286,
+              6.36032003220154
+            ],
+            [
+              2.316692378511085,
+              6.360491910995374
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 228,
+        "CODE INSAE": null,
+        "DEPARTEMENT": "ATLANTIQUE",
+        "COMMUNE": "ABOMEY-CALAVI",
+        "ARRONDISSEMENT": "ABOMEY-CALAVI",
+        "VILLAGE_QUARTIER": "TANKPE",
+        "CODE_BLOC": "IR072-03151130052",
+        "CODE_PARCELLE": "0052",
+        "CODE_EQUIPE": "1302",
+        "SUPERFICIE": 341,
+        "EL_NUMERO_ETAT_LIEUX": "14711a",
+        "EL_LOT": "549A",
+        "EL_LETTRE_PARCELLE": "t",
+        "RFU_QUARTIER_OU_ZONE": "",
+        "RFU_ILOT": null,
+        "RFU_LETTRE_PARCELLE": null,
+        "DATE_COLLECTE": null,
+        "NOM_LOTISSEMENT": "",
+        "CODE EQUIPE": null,
+        "CODE BLOC": null,
+        "CODE PARCELLE": null,
+        "TYPE DE PARCELLE": null,
+        "NATURE DE LA PARCELLE": null,
+        "TYPE DE DROIT": null,
+        "TYPE DE PERSONNE": null,
+        "SEXE": "Masculin"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              2.3308803039062,
+              6.435171950401643
+            ],
+            [
+              2.330977514703403,
+              6.435126310806404
+            ],
+            [
+              2.330829524365496,
+              6.434916076881666
+            ],
+            [
+              2.330727854320379,
+              6.434965732233917
+            ],
+            [
+              2.3308803039062,
+              6.435171950401643
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 236,
+        "CODE INSAE": "0340109",
+        "DEPARTEMENT": "ATLANTIQUE",
+        "COMMUNE": "OUIDAH",
+        "ARRONDISSEMENT": "AVLEKETE",
+        "VILLAGE_QUARTIER": "ADJAHINDJI",
+        "CODE_BLOC": "IR082-03401090030",
+        "CODE_PARCELLE": "0030",
+        "CODE_EQUIPE": "1582",
+        "SUPERFICIE": 7923,
+        "EL_NUMERO_ETAT_LIEUX": null,
+        "EL_LOT": null,
+        "EL_LETTRE_PARCELLE": null,
+        "RFU_QUARTIER_OU_ZONE": null,
+        "RFU_ILOT": null,
+        "RFU_LETTRE_PARCELLE": null,
+        "DATE_COLLECTE": null,
+        "NOM_LOTISSEMENT": null,
+        "CODE EQUIPE": "1582",
+        "CODE BLOC": "IR082-03401090030",
+        "CODE PARCELLE": "0030",
+        "TYPE DE PARCELLE": "Parcelle privée",
+        "NATURE DE LA PARCELLE": "Collective",
+        "TYPE DE DROIT": "Propriété présumée",
+        "TYPE DE PERSONNE": "Groupe Informel fermé",
+        "SEXE": null
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              2.2574844277950614,
+              6.352745034914072
+            ],
+            [
+              2.2574801136276306,
+              6.352560579914049
+            ],
+            [
+              2.257481652627411,
+              6.352484677080694
+            ],
+            [
+              2.257505927460752,
+              6.352288011080567
+            ],
+            [
+              2.257502031126849,
+              6.352156135580554
+            ],
+            [
+              2.2575037516266496,
+              6.352084405913867
+            ],
+            [
+              2.25748652995895,
+              6.351928318747225
+            ],
+            [
+              2.25746926962481,
+              6.351837962413931
+            ],
+            [
+              2.2574577866242347,
+              6.351766072080624
+            ],
+            [
+              2.2572179162840906,
+              6.3517719179148
+            ],
+            [
+              2.25695446477661,
+              6.351777958082387
+            ],
+            [
+              2.2567214229366606,
+              6.351784159083199
+            ],
+            [
+              2.25671244427025,
+              6.351931286749929
+            ],
+            [
+              2.2567039652705487,
+              6.35208656124999
+            ],
+            [
+              2.2566921729375826,
+              6.352289600416745
+            ],
+            [
+              2.2566882646043784,
+              6.352358475750106
+            ],
+            [
+              2.2568830522767147,
+              6.3523938195827645
+            ],
+            [
+              2.2568699347769763,
+              6.352576732249516
+            ],
+            [
+              2.256970851613284,
+              6.352605297915835
+            ],
+            [
+              2.257148753451849,
+              6.352653453081891
+            ],
+            [
+              2.2573248076236974,
+              6.3527015539146205
+            ],
+            [
+              2.2574844277950614,
+              6.352745034914072
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 237,
+        "CODE INSAE": "0520607",
+        "DEPARTEMENT": "COLLINES",
+        "COMMUNE": "DASSA-ZOUME",
+        "ARRONDISSEMENT": "PAOUIGNAN",
+        "VILLAGE_QUARTIER": "GOUSSOE",
+        "CODE_BLOC": "IR082-05206070029",
+        "CODE_PARCELLE": "0029",
+        "CODE_EQUIPE": "1582",
+        "SUPERFICIE": 916930,
+        "EL_NUMERO_ETAT_LIEUX": null,
+        "EL_LOT": null,
+        "EL_LETTRE_PARCELLE": null,
+        "RFU_QUARTIER_OU_ZONE": null,
+        "RFU_ILOT": null,
+        "RFU_LETTRE_PARCELLE": null,
+        "DATE_COLLECTE": null,
+        "NOM_LOTISSEMENT": null,
+        "CODE EQUIPE": "1582",
+        "CODE BLOC": "IR082-05206070029",
+        "CODE PARCELLE": "0029",
+        "TYPE DE PARCELLE": "Parcelle privée",
+        "NATURE DE LA PARCELLE": "Individuelle",
+        "TYPE DE DROIT": "Propriété présumée",
+        "TYPE DE PERSONNE": "Personne physique",
+        "SEXE": "Masculin"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              2.318472837459955,
+              7.564543467500351
+            ],
+            [
+              2.319161990942556,
+              7.564381638837923
+            ],
+            [
+              2.3205288332416365,
+              7.5640192100130035
+            ],
+            [
+              2.32260900035628,
+              7.563452688525824
+            ],
+            [
+              2.323662283496556,
+              7.56317456086565
+            ],
+            [
+              2.3239263494899625,
+              7.563101419533949
+            ],
+            [
+              2.3247943049683006,
+              7.562858800039304
+            ],
+            [
+              2.3257964637766695,
+              7.562571641045498
+            ],
+            [
+              2.3275743745657436,
+              7.562058340889821
+            ],
+            [
+              2.328529466880832,
+              7.560884572562623
+            ],
+            [
+              2.328038155732327,
+              7.5600616112264944
+            ],
+            [
+              2.327628324078758,
+              7.55970860622408
+            ],
+            [
+              2.3268985917698184,
+              7.558904950719828
+            ],
+            [
+              2.3266420821158467,
+              7.557951951218505
+            ],
+            [
+              2.3250575901654518,
+              7.55675101070914
+            ],
+            [
+              2.323643424869508,
+              7.5568002310338445
+            ],
+            [
+              2.3225270844052592,
+              7.555821772360629
+            ],
+            [
+              2.322519944126016,
+              7.553547468529895
+            ],
+            [
+              2.322382055223969,
+              7.553477167350008
+            ],
+            [
+              2.3221422738517314,
+              7.553210648571873
+            ],
+            [
+              2.3219809993374247,
+              7.5534400723136965
+            ],
+            [
+              2.321245634290308,
+              7.553310873665264
+            ],
+            [
+              2.3210001989500597,
+              7.553306830774448
+            ],
+            [
+              2.3208466928046465,
+              7.553240781811415
+            ],
+            [
+              2.3208104897891895,
+              7.553160939819587
+            ],
+            [
+              2.320780209141292,
+              7.553138314410565
+            ],
+            [
+              2.3207043795045,
+              7.55310730582092
+            ],
+            [
+              2.3205690032223036,
+              7.553073970969493
+            ],
+            [
+              2.320498110391452,
+              7.5531173665801905
+            ],
+            [
+              2.320487395452962,
+              7.553171403452615
+            ],
+            [
+              2.3204028756255854,
+              7.5533043461175176
+            ],
+            [
+              2.320591143883734,
+              7.554499130563632
+            ],
+            [
+              2.3192211371146487,
+              7.556406327886127
+            ],
+            [
+              2.3163643548909993,
+              7.558369624532868
+            ],
+            [
+              2.3171250729387025,
+              7.560670288534451
+            ],
+            [
+              2.3177843519410173,
+              7.562499025202716
+            ],
+            [
+              2.318472837459955,
+              7.564543467500351
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 238,
+        "CODE INSAE": "0380807",
+        "DEPARTEMENT": "ATLANTIQUE",
+        "COMMUNE": "ZE",
+        "ARRONDISSEMENT": "SEDJE-HOUEGOUDO",
+        "VILLAGE_QUARTIER": "SEDJANNAKO",
+        "CODE_BLOC": "IR082-03808070007",
+        "CODE_PARCELLE": "0007",
+        "CODE_EQUIPE": null,
+        "SUPERFICIE": 34814,
+        "EL_NUMERO_ETAT_LIEUX": null,
+        "EL_LOT": null,
+        "EL_LETTRE_PARCELLE": null,
+        "RFU_QUARTIER_OU_ZONE": null,
+        "RFU_ILOT": null,
+        "RFU_LETTRE_PARCELLE": null,
+        "DATE_COLLECTE": null,
+        "NOM_LOTISSEMENT": null,
+        "CODE EQUIPE": "1582",
+        "CODE BLOC": "IR082-03808070007",
+        "CODE PARCELLE": "0007",
+        "TYPE DE PARCELLE": "Parcelle privée",
+        "NATURE DE LA PARCELLE": "Individuelle",
+        "TYPE DE DROIT": "Propriété présumée",
+        "TYPE DE PERSONNE": "Personne physique",
+        "SEXE": "Masculin"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              2.390066557541981,
+              6.790207000618449
+            ],
+            [
+              2.391176543569091,
+              6.791086555380836
+            ],
+            [
+              2.39244258343,
+              6.790679809896318
+            ],
+            [
+              2.3924557098187544,
+              6.790481131886679
+            ],
+            [
+              2.392412246758448,
+              6.79015587194539
+            ],
+            [
+              2.392464999928457,
+              6.789805748785692
+            ],
+            [
+              2.392247637542672,
+              6.789284995635415
+            ],
+            [
+              2.39194950487625,
+              6.789115017853627
+            ],
+            [
+              2.3917442546955,
+              6.789016770016218
+            ],
+            [
+              2.391709948583202,
+              6.789672809412982
+            ],
+            [
+              2.3914103139293066,
+              6.789949245126098
+            ],
+            [
+              2.3910131303909163,
+              6.789964205192925
+            ],
+            [
+              2.3910880643489856,
+              6.789304508291109
+            ],
+            [
+              2.39045397881743,
+              6.789471488261968
+            ],
+            [
+              2.390291012751121,
+              6.78992237551566
+            ],
+            [
+              2.390066557541981,
+              6.790207000618449
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 239,
+        "CODE INSAE": "0310814",
+        "DEPARTEMENT": "ATLANTIQUE",
+        "COMMUNE": "ABOMEY-CALAVI",
+        "ARRONDISSEMENT": "ZINVIE",
+        "VILLAGE_QUARTIER": "ZINVIE-FANDJI",
+        "CODE_BLOC": "IR102-03108140010",
+        "CODE_PARCELLE": "0010",
+        "CODE_EQUIPE": "1302",
+        "SUPERFICIE": 489,
+        "EL_NUMERO_ETAT_LIEUX": "",
+        "EL_LOT": "",
+        "EL_LETTRE_PARCELLE": "",
+        "RFU_QUARTIER_OU_ZONE": "",
+        "RFU_ILOT": null,
+        "RFU_LETTRE_PARCELLE": null,
+        "DATE_COLLECTE": null,
+        "NOM_LOTISSEMENT": "",
+        "CODE EQUIPE": "1302",
+        "CODE BLOC": "IR102-03108140010",
+        "CODE PARCELLE": "0010",
+        "TYPE DE PARCELLE": "Parcelle privée",
+        "NATURE DE LA PARCELLE": "Individuelle",
+        "TYPE DE DROIT": "Propriété présumée",
+        "TYPE DE PERSONNE": "Personne physique",
+        "SEXE": "Féminin"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              2.3437326301887027,
+              6.617556863675414
+            ],
+            [
+              2.343751115918779,
+              6.617539368680279
+            ],
+            [
+              2.3439434610809085,
+              6.617498843626846
+            ],
+            [
+              2.343937195740008,
+              6.617475314482457
+            ],
+            [
+              2.3439299925998767,
+              6.617448223787049
+            ],
+            [
+              2.343918543402228,
+              6.617410076566
+            ],
+            [
+              2.3438854969057705,
+              6.617315945936693
+            ],
+            [
+              2.34374243923314,
+              6.617367401886839
+            ],
+            [
+              2.343716314312136,
+              6.617376293446486
+            ],
+            [
+              2.343669976952946,
+              6.617392695137439
+            ],
+            [
+              2.3437326301887027,
+              6.617556863675414
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 242,
+        "CODE INSAE": "0310114",
+        "DEPARTEMENT": "ATLANTIQUE",
+        "COMMUNE": "ABOMEY-CALAVI",
+        "ARRONDISSEMENT": "AKASSATO",
+        "VILLAGE_QUARTIER": "ZOPAH",
+        "CODE_BLOC": "IR082-03101140023",
+        "CODE_PARCELLE": "0023",
+        "CODE_EQUIPE": "1582",
+        "SUPERFICIE": 542,
+        "EL_NUMERO_ETAT_LIEUX": null,
+        "EL_LOT": "242",
+        "EL_LETTRE_PARCELLE": "s",
+        "RFU_QUARTIER_OU_ZONE": null,
+        "RFU_ILOT": null,
+        "RFU_LETTRE_PARCELLE": null,
+        "DATE_COLLECTE": null,
+        "NOM_LOTISSEMENT": "LOTISSEMENT DE ZOPAH ",
+        "CODE EQUIPE": "1582",
+        "CODE BLOC": "IR082-03101140023",
+        "CODE PARCELLE": "0023",
+        "TYPE DE PARCELLE": "Parcelle privée",
+        "NATURE DE LA PARCELLE": "Individuelle",
+        "TYPE DE DROIT": "Propriété présumée",
+        "TYPE DE PERSONNE": "Personne physique",
+        "SEXE": "Féminin"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              2.3584004135002,
+              6.49237440052759
+            ],
+            [
+              2.358410041333533,
+              6.492225961860923
+            ],
+            [
+              2.3581117697174006,
+              6.492206608025185
+            ],
+            [
+              2.3581037587243237,
+              6.492355151595115
+            ],
+            [
+              2.3584004135002,
+              6.49237440052759
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 246,
+        "CODE INSAE": "0310701",
+        "DEPARTEMENT": "ATLANTIQUE",
+        "COMMUNE": "ABOMEY-CALAVI",
+        "ARRONDISSEMENT": "TOGBA",
+        "VILLAGE_QUARTIER": "AHOSSOUGBETA",
+        "CODE_BLOC": "IR072-03107010049",
+        "CODE_PARCELLE": "0049",
+        "CODE_EQUIPE": "1302",
+        "SUPERFICIE": 633,
+        "EL_NUMERO_ETAT_LIEUX": "EL 1794ga",
+        "EL_LOT": "M-1940",
+        "EL_LETTRE_PARCELLE": "n, m",
+        "RFU_QUARTIER_OU_ZONE": "",
+        "RFU_ILOT": null,
+        "RFU_LETTRE_PARCELLE": null,
+        "DATE_COLLECTE": null,
+        "NOM_LOTISSEMENT": "",
+        "CODE EQUIPE": "1302",
+        "CODE BLOC": "IR072-03107010049",
+        "CODE PARCELLE": "0049",
+        "TYPE DE PARCELLE": "Parcelle privée",
+        "NATURE DE LA PARCELLE": "Individuelle",
+        "TYPE DE DROIT": "Propriété présumée",
+        "TYPE DE PERSONNE": "Personne physique ",
+        "SEXE": "Masculin"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              2.3234449150564074,
+              6.458742676473942
+            ],
+            [
+              2.323575089725895,
+              6.458660210405563
+            ],
+            [
+              2.3236732017098247,
+              6.458608833304098
+            ],
+            [
+              2.3236196400205094,
+              6.458435550185345
+            ],
+            [
+              2.32337740584602,
+              6.4585281773530365
+            ],
+            [
+              2.32337740584602,
+              6.4585281773530365
+            ],
+            [
+              2.3234449150564074,
+              6.458742676473942
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 248,
+        "CODE INSAE": "0310701",
+        "DEPARTEMENT": "ATLANTIQUE",
+        "COMMUNE": "ABOMEY-CALAVI",
+        "ARRONDISSEMENT": "TOGBA",
+        "VILLAGE_QUARTIER": "AHOSSOUGBETA",
+        "CODE_BLOC": "IR072-03107010051",
+        "CODE_PARCELLE": "0051",
+        "CODE_EQUIPE": "1302",
+        "SUPERFICIE": 325,
+        "EL_NUMERO_ETAT_LIEUX": "",
+        "EL_LOT": "M-1815",
+        "EL_LETTRE_PARCELLE": "n",
+        "RFU_QUARTIER_OU_ZONE": "",
+        "RFU_ILOT": null,
+        "RFU_LETTRE_PARCELLE": null,
+        "DATE_COLLECTE": null,
+        "NOM_LOTISSEMENT": "",
+        "CODE EQUIPE": "1302",
+        "CODE BLOC": "IR072-03107010051",
+        "CODE PARCELLE": "0051",
+        "TYPE DE PARCELLE": "Parcelle privée",
+        "NATURE DE LA PARCELLE": "Individuelle",
+        "TYPE DE DROIT": "Propriété présumée",
+        "TYPE DE PERSONNE": "Personne physique ",
+        "SEXE": "Masculin"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              2.3188461708512453,
+              6.468358519766353
+            ],
+            [
+              2.319039965633688,
+              6.468306649520806
+            ],
+            [
+              2.3189928452181796,
+              6.468180639145886
+            ],
+            [
+              2.318799128997745,
+              6.468235983739431
+            ],
+            [
+              2.3188461708512453,
+              6.468358519766353
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 256,
+        "CODE INSAE": "0565306",
+        "DEPARTEMENT": "COLLINES",
+        "COMMUNE": "SAVE",
+        "ARRONDISSEMENT": "PLATEAU",
+        "VILLAGE_QUARTIER": "SAVE-NOUVEAU EXENTION II",
+        "CODE_BLOC": "IR115-05653060003",
+        "CODE_PARCELLE": "0003",
+        "CODE_EQUIPE": "1302",
+        "SUPERFICIE": 625,
+        "EL_NUMERO_ETAT_LIEUX": "EL n°486",
+        "EL_LOT": "36",
+        "EL_LETTRE_PARCELLE": "h",
+        "RFU_QUARTIER_OU_ZONE": "",
+        "RFU_ILOT": "",
+        "RFU_LETTRE_PARCELLE": "",
+        "DATE_COLLECTE": null,
+        "NOM_LOTISSEMENT": "SAVE-NOUVEAU EXENTION II",
+        "CODE EQUIPE": "1302",
+        "CODE BLOC": "IR115-05653060003",
+        "CODE PARCELLE": "0003",
+        "TYPE DE PARCELLE": "Parcelle privée",
+        "NATURE DE LA PARCELLE": "Individuelle",
+        "TYPE DE DROIT": "Propriété présumée",
+        "TYPE DE PERSONNE": "Personne physique ",
+        "SEXE": "Masculin"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              2.4782168196312733,
+              8.017263427295138
+            ],
+            [
+              2.4783331299588345,
+              8.017069130220287
+            ],
+            [
+              2.4781378939386856,
+              8.016953909722512
+            ],
+            [
+              2.478021754485966,
+              8.017149373784633
+            ],
+            [
+              2.4782168196312733,
+              8.017263427295138
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 245,
+        "CODE INSAE": "0315113",
+        "DEPARTEMENT": "ATLANTIQUE",
+        "COMMUNE": "ABOMEY-CALAVI",
+        "ARRONDISSEMENT": "ABOMEY-CALAVI",
+        "VILLAGE_QUARTIER": "TANKPE",
+        "CODE_BLOC": "IR072-03151130054",
+        "CODE_PARCELLE": "0054",
+        "CODE_EQUIPE": "1302",
+        "SUPERFICIE": 352,
+        "EL_NUMERO_ETAT_LIEUX": "14713a",
+        "EL_LOT": "549A",
+        "EL_LETTRE_PARCELLE": "r",
+        "RFU_QUARTIER_OU_ZONE": "",
+        "RFU_ILOT": null,
+        "RFU_LETTRE_PARCELLE": null,
+        "DATE_COLLECTE": null,
+        "NOM_LOTISSEMENT": "",
+        "CODE EQUIPE": "1302",
+        "CODE BLOC": "IR072-03151130054",
+        "CODE PARCELLE": "0054",
+        "TYPE DE PARCELLE": "Parcelle privée",
+        "NATURE DE LA PARCELLE": "Individuelle",
+        "TYPE DE DROIT": "Propriété présumée",
+        "TYPE DE PERSONNE": "Personne physique",
+        "SEXE": "Masculin"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              2.3310839872924416,
+              6.435078934943138
+            ],
+            [
+              2.3311846350155765,
+              6.435029560617891
+            ],
+            [
+              2.3310337706347193,
+              6.434819507165157
+            ],
+            [
+              2.330931387337611,
+              6.434866934334413
+            ],
+            [
+              2.3310839872924416,
+              6.435078934943138
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 260,
+        "CODE INSAE": null,
+        "DEPARTEMENT": "ATLANTIQUE",
+        "COMMUNE": "ABOMEY-CALAVI",
+        "ARRONDISSEMENT": "AKASSATO",
+        "VILLAGE_QUARTIER": "MISSESSINTO",
+        "CODE_BLOC": "IR072-03101120041",
+        "CODE_PARCELLE": "0041",
+        "CODE_EQUIPE": "1302",
+        "SUPERFICIE": 328,
+        "EL_NUMERO_ETAT_LIEUX": "",
+        "EL_LOT": "M-9",
+        "EL_LETTRE_PARCELLE": "t",
+        "RFU_QUARTIER_OU_ZONE": "",
+        "RFU_ILOT": "",
+        "RFU_LETTRE_PARCELLE": "",
+        "DATE_COLLECTE": null,
+        "NOM_LOTISSEMENT": "",
+        "CODE EQUIPE": null,
+        "CODE BLOC": null,
+        "CODE PARCELLE": null,
+        "TYPE DE PARCELLE": null,
+        "NATURE DE LA PARCELLE": null,
+        "TYPE DE DROIT": null,
+        "TYPE DE PERSONNE": null,
+        "SEXE": null
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              2.3547302225611157,
+              6.514065728526731
+            ],
+            [
+              2.3548576349398154,
+              6.514051957081501
+            ],
+            [
+              2.354857630817439,
+              6.513841160163432
+            ],
+            [
+              2.354741772697948,
+              6.513834721844908
+            ],
+            [
+              2.3547302225611157,
+              6.514065728526731
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 254,
+        "CODE INSAE": "0310302",
+        "DEPARTEMENT": "ATLANTIQUE",
+        "COMMUNE": "ABOMEY-CALAVI",
+        "ARRONDISSEMENT": "GOLO-DJIGBE",
+        "VILLAGE_QUARTIER": "AGONGBE",
+        "CODE_BLOC": "IR088-03103020014",
+        "CODE_PARCELLE": "0014",
+        "CODE_EQUIPE": "1302",
+        "SUPERFICIE": 488,
+        "EL_NUMERO_ETAT_LIEUX": "0469d",
+        "EL_LOT": "",
+        "EL_LETTRE_PARCELLE": "",
+        "RFU_QUARTIER_OU_ZONE": "AGONGBE",
+        "RFU_ILOT": "",
+        "RFU_LETTRE_PARCELLE": "",
+        "DATE_COLLECTE": null,
+        "NOM_LOTISSEMENT": "",
+        "CODE EQUIPE": "1302",
+        "CODE BLOC": "IR088-03103020014",
+        "CODE PARCELLE": "0014",
+        "TYPE DE PARCELLE": "Parcelle privée",
+        "NATURE DE LA PARCELLE": "Individuelle",
+        "TYPE DE DROIT": "Propriété présumée",
+        "TYPE DE PERSONNE": "Personne physique",
+        "SEXE": "Féminin"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              2.3092885468208157,
+              6.53670569305516
+            ],
+            [
+              2.3092983754657945,
+              6.536577189102582
+            ],
+            [
+              2.3089821483122663,
+              6.536560251473448
+            ],
+            [
+              2.308976163149034,
+              6.536685062892641
+            ],
+            [
+              2.3092885468208157,
+              6.53670569305516
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 264,
+        "CODE INSAE": "0310242",
+        "DEPARTEMENT": "ATLANTIQUE",
+        "COMMUNE": "ABOMEY-CALAVI",
+        "ARRONDISSEMENT": "GODOMEY",
+        "VILLAGE_QUARTIER": "TOGBIN DAHO",
+        "CODE_BLOC": "IR088-03102420056",
+        "CODE_PARCELLE": "0056",
+        "CODE_EQUIPE": "1302",
+        "SUPERFICIE": 323,
+        "EL_NUMERO_ETAT_LIEUX": "0448",
+        "EL_LOT": "24",
+        "EL_LETTRE_PARCELLE": "e",
+        "RFU_QUARTIER_OU_ZONE": "TOGBIN DAHO",
+        "RFU_ILOT": "",
+        "RFU_LETTRE_PARCELLE": "",
+        "DATE_COLLECTE": null,
+        "NOM_LOTISSEMENT": "TOGBIN ZONE 5",
+        "CODE EQUIPE": "1302",
+        "CODE BLOC": "IR088-03102420056",
+        "CODE PARCELLE": "0056",
+        "TYPE DE PARCELLE": "Parcelle privée",
+        "NATURE DE LA PARCELLE": "Individuelle",
+        "TYPE DE DROIT": "Propriété présumée",
+        "TYPE DE PERSONNE": "Personne physique",
+        "SEXE": "Féminin"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              2.3040329652799425,
+              6.359523997150199
+            ],
+            [
+              2.3041754384098265,
+              6.359501648331965
+            ],
+            [
+              2.3041491976822877,
+              6.359321432110807
+            ],
+            [
+              2.3040060771992175,
+              6.359342467547339
+            ],
+            [
+              2.3040329652799425,
+              6.359523997150199
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 230,
+        "CODE INSAE": "0310242",
+        "DEPARTEMENT": "ATLANTIQUE",
+        "COMMUNE": "ABOMEY-CALAVI",
+        "ARRONDISSEMENT": "GODOMEY",
+        "VILLAGE_QUARTIER": "TOGBIN-DAHO",
+        "CODE_BLOC": "IR088-03102420041",
+        "CODE_PARCELLE": "0041",
+        "CODE_EQUIPE": "1302",
+        "SUPERFICIE": 297,
+        "EL_NUMERO_ETAT_LIEUX": "0830",
+        "EL_LOT": "25",
+        "EL_LETTRE_PARCELLE": "d'",
+        "RFU_QUARTIER_OU_ZONE": "TOGBIN-DAHO",
+        "RFU_ILOT": null,
+        "RFU_LETTRE_PARCELLE": null,
+        "DATE_COLLECTE": null,
+        "NOM_LOTISSEMENT": "TOGBIN ZONE5",
+        "CODE EQUIPE": "1302",
+        "CODE BLOC": "IR088-03102420041",
+        "CODE PARCELLE": "0041",
+        "TYPE DE PARCELLE": "Parcelle privée",
+        "NATURE DE LA PARCELLE": "Individuelle",
+        "TYPE DE DROIT": "Propriété présumée",
+        "TYPE DE PERSONNE": "Personne physique",
+        "SEXE": "Féminin"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              2.3042642017760273,
+              6.3605669448127165
+            ],
+            [
+              2.3044322056131534,
+              6.360527584893084
+            ],
+            [
+              2.3044151764472525,
+              6.3603928720178
+            ],
+            [
+              2.3042439208996437,
+              6.360422499077725
+            ],
+            [
+              2.3042642017760273,
+              6.3605669448127165
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 265,
+        "CODE INSAE": "0310114",
+        "DEPARTEMENT": "ATLANTIQUE",
+        "COMMUNE": "ABOMEY-CALAVI",
+        "ARRONDISSEMENT": "AKASSATO",
+        "VILLAGE_QUARTIER": "ZOPAH",
+        "CODE_BLOC": "IR082-03101140024",
+        "CODE_PARCELLE": "0024",
+        "CODE_EQUIPE": "1582",
+        "SUPERFICIE": 539,
+        "EL_NUMERO_ETAT_LIEUX": null,
+        "EL_LOT": "242",
+        "EL_LETTRE_PARCELLE": "r",
+        "RFU_QUARTIER_OU_ZONE": null,
+        "RFU_ILOT": null,
+        "RFU_LETTRE_PARCELLE": null,
+        "DATE_COLLECTE": null,
+        "NOM_LOTISSEMENT": "LOTISSEMENT DE ZOPAH",
+        "CODE EQUIPE": "1582",
+        "CODE BLOC": "IR082-03101140024",
+        "CODE PARCELLE": "0024",
+        "TYPE DE PARCELLE": "Parcelle privée",
+        "NATURE DE LA PARCELLE": "Individuelle",
+        "TYPE DE DROIT": "Propriété présumée",
+        "TYPE DE PERSONNE": "Personne physique",
+        "SEXE": "Masculin"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              2.3583908711486217,
+              6.492521521113375
+            ],
+            [
+              2.3584004135002,
+              6.492374400527586
+            ],
+            [
+              2.3581037587243237,
+              6.492355151595115
+            ],
+            [
+              2.358095678729365,
+              6.492504974460147
+            ],
+            [
+              2.3583908711486217,
+              6.492521521113375
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 266,
+        "CODE INSAE": "0310114",
+        "DEPARTEMENT": "ATLANTIQUE",
+        "COMMUNE": "ABOMEY-CALAVI",
+        "ARRONDISSEMENT": "AKASSATO",
+        "VILLAGE_QUARTIER": "ZOPAH",
+        "CODE_BLOC": "IR082-03101140022",
+        "CODE_PARCELLE": "0022",
+        "CODE_EQUIPE": "1582",
+        "SUPERFICIE": 535,
+        "EL_NUMERO_ETAT_LIEUX": null,
+        "EL_LOT": "242",
+        "EL_LETTRE_PARCELLE": "d",
+        "RFU_QUARTIER_OU_ZONE": null,
+        "RFU_ILOT": null,
+        "RFU_LETTRE_PARCELLE": null,
+        "DATE_COLLECTE": null,
+        "NOM_LOTISSEMENT": "LOTISSEMENT DE ZOPAH",
+        "CODE EQUIPE": "1582",
+        "CODE BLOC": "IR082-03101140022",
+        "CODE PARCELLE": "0022",
+        "TYPE DE PARCELLE": "Parcelle privée",
+        "NATURE DE LA PARCELLE": "Individuelle",
+        "TYPE DE DROIT": "Propriété présumée",
+        "TYPE DE PERSONNE": "Personne physique",
+        "SEXE": "Masculin"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              2.3586906589050605,
+              6.492538325176453
+            ],
+            [
+              2.3586988607561064,
+              6.492393765592405
+            ],
+            [
+              2.3584004135002,
+              6.492374400527586
+            ],
+            [
+              2.3583908711486217,
+              6.492521521113375
+            ],
+            [
+              2.3586906589050605,
+              6.492538325176453
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 274,
+        "CODE INSAE": "0315113",
+        "DEPARTEMENT": "ATLANTIQUE",
+        "COMMUNE": "ABOMEY-CALAVI",
+        "ARRONDISSEMENT": "ABOMEY-CALAVI",
+        "VILLAGE_QUARTIER": "TANKPE",
+        "CODE_BLOC": "IR072-03151130053",
+        "CODE_PARCELLE": "0053",
+        "CODE_EQUIPE": "1302",
+        "SUPERFICIE": 358,
+        "EL_NUMERO_ETAT_LIEUX": "14712a",
+        "EL_LOT": "549A",
+        "EL_LETTRE_PARCELLE": "s",
+        "RFU_QUARTIER_OU_ZONE": "",
+        "RFU_ILOT": "",
+        "RFU_LETTRE_PARCELLE": "",
+        "DATE_COLLECTE": null,
+        "NOM_LOTISSEMENT": "",
+        "CODE EQUIPE": "1302",
+        "CODE BLOC": "IR072-03151130053",
+        "CODE PARCELLE": "0053",
+        "TYPE DE PARCELLE": "Parcelle privée",
+        "NATURE DE LA PARCELLE": "Individuelle",
+        "TYPE DE DROIT": "Propriété présumée",
+        "TYPE DE PERSONNE": "Personne physique",
+        "SEXE": "Masculin"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              2.330977514703403,
+              6.435126310806404
+            ],
+            [
+              2.3310839872924416,
+              6.435078934943138
+            ],
+            [
+              2.330931387337611,
+              6.434866934334413
+            ],
+            [
+              2.330829524365496,
+              6.434916076881666
+            ],
+            [
+              2.330977514703403,
+              6.435126310806404
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 269,
+        "CODE INSAE": "0310202",
+        "DEPARTEMENT": "ATLANTIQUE",
+        "COMMUNE": "ABOMEY-CALAVI",
+        "ARRONDISSEMENT": "GODOMEY",
+        "VILLAGE_QUARTIER": "AGBO-CODJI-SEDEGBE",
+        "CODE_BLOC": "IR073-03102020029",
+        "CODE_PARCELLE": "0029",
+        "CODE_EQUIPE": "1008",
+        "SUPERFICIE": 333,
+        "EL_NUMERO_ETAT_LIEUX": "",
+        "EL_LOT": "35",
+        "EL_LETTRE_PARCELLE": "j",
+        "RFU_QUARTIER_OU_ZONE": "",
+        "RFU_ILOT": "",
+        "RFU_LETTRE_PARCELLE": "",
+        "DATE_COLLECTE": null,
+        "NOM_LOTISSEMENT": "",
+        "CODE EQUIPE": "1008",
+        "CODE BLOC": "IR073-03102020029",
+        "CODE PARCELLE": "0029",
+        "TYPE DE PARCELLE": "Parcelle privée",
+        "NATURE DE LA PARCELLE": "Individuelle",
+        "TYPE DE DROIT": "Propriété présumée",
+        "TYPE DE PERSONNE": "Personne physique",
+        "SEXE": "Féminin"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              2.3254430656745684,
+              6.385516249245896
+            ],
+            [
+              2.3256014850002686,
+              6.385451905461371
+            ],
+            [
+              2.3255452340051677,
+              6.385303113127053
+            ],
+            [
+              2.325381565840746,
+              6.385377435289672
+            ],
+            [
+              2.3254430656745684,
+              6.385516249245896
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 270,
+        "CODE INSAE": "0340510",
+        "DEPARTEMENT": "ATLANTIQUE",
+        "COMMUNE": "OUIDAH",
+        "ARRONDISSEMENT": "PAHOU",
+        "VILLAGE_QUARTIER": "SELLOLI-BAZOUNKPA",
+        "CODE_BLOC": "IR072-03405100020",
+        "CODE_PARCELLE": "0020",
+        "CODE_EQUIPE": "1302",
+        "SUPERFICIE": 1147,
+        "EL_NUMERO_ETAT_LIEUX": "",
+        "EL_LOT": "",
+        "EL_LETTRE_PARCELLE": "",
+        "RFU_QUARTIER_OU_ZONE": "",
+        "RFU_ILOT": "",
+        "RFU_LETTRE_PARCELLE": "",
+        "DATE_COLLECTE": null,
+        "NOM_LOTISSEMENT": "",
+        "CODE EQUIPE": "1302",
+        "CODE BLOC": "IR072-03405100020",
+        "CODE PARCELLE": "0020",
+        "TYPE DE PARCELLE": "Parcelle privée",
+        "NATURE DE LA PARCELLE": "Individuelle",
+        "TYPE DE DROIT": "Propriété présumée",
+        "TYPE DE PERSONNE": "Personne physique",
+        "SEXE": "Masculin"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              2.263263137399373,
+              6.389141144889283
+            ],
+            [
+              2.2634895562923747,
+              6.389129446550278
+            ],
+            [
+              2.2634432458863754,
+              6.388717760361292
+            ],
+            [
+              2.2632146434463736,
+              6.388733976978291
+            ],
+            [
+              2.263263137399373,
+              6.389141144889283
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 271,
+        "CODE INSAE": "0310112",
+        "DEPARTEMENT": "ATLANTIQUE",
+        "COMMUNE": "ABOMEY CALAVI",
+        "ARRONDISSEMENT": "AKASSATO",
+        "VILLAGE_QUARTIER": "MISSESSINTO",
+        "CODE_BLOC": "IR109-03101120001",
+        "CODE_PARCELLE": "0001",
+        "CODE_EQUIPE": "1302",
+        "SUPERFICIE": 861,
+        "EL_NUMERO_ETAT_LIEUX": "947a 948a 951a",
+        "EL_LOT": "M-129",
+        "EL_LETTRE_PARCELLE": "J P Q",
+        "RFU_QUARTIER_OU_ZONE": "MISSESSINTO",
+        "RFU_ILOT": null,
+        "RFU_LETTRE_PARCELLE": null,
+        "DATE_COLLECTE": null,
+        "NOM_LOTISSEMENT": "AKASSATO",
+        "CODE EQUIPE": "1302",
+        "CODE BLOC": "IR109-03101120001",
+        "CODE PARCELLE": "0001",
+        "TYPE DE PARCELLE": "Parcelle privée",
+        "NATURE DE LA PARCELLE": "Individuelle",
+        "TYPE DE DROIT": "Propriété présumée",
+        "TYPE DE PERSONNE": "Personne physique",
+        "SEXE": "Masculin"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              2.362369856198967,
+              6.517356384369564
+            ],
+            [
+              2.3624414420070523,
+              6.517283053306538
+            ],
+            [
+              2.36251143679652,
+              6.517211352018378
+            ],
+            [
+              2.3623308126761025,
+              6.5170555121335445
+            ],
+            [
+              2.362275947242901,
+              6.517122931620006
+            ],
+            [
+              2.3621198862811292,
+              6.516990233219244
+            ],
+            [
+              2.362044224578025,
+              6.517077551738915
+            ],
+            [
+              2.362199492340128,
+              6.5172105048543765
+            ],
+            [
+              2.362369856198967,
+              6.517356384369564
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 272,
+        "CODE INSAE": "0340510",
+        "DEPARTEMENT": "ATLANTIQUE",
+        "COMMUNE": "OUIDAH",
+        "ARRONDISSEMENT": "PAHOU",
+        "VILLAGE_QUARTIER": "SELLOLI-BAZOUNKPA",
+        "CODE_BLOC": "IR108-03405100004",
+        "CODE_PARCELLE": "0004",
+        "CODE_EQUIPE": "1302",
+        "SUPERFICIE": 499,
+        "EL_NUMERO_ETAT_LIEUX": "",
+        "EL_LOT": "",
+        "EL_LETTRE_PARCELLE": "",
+        "RFU_QUARTIER_OU_ZONE": "",
+        "RFU_ILOT": "",
+        "RFU_LETTRE_PARCELLE": "",
+        "DATE_COLLECTE": null,
+        "NOM_LOTISSEMENT": "",
+        "CODE EQUIPE": "1302",
+        "CODE BLOC": "IR108-03405100004",
+        "CODE PARCELLE": "0004",
+        "TYPE DE PARCELLE": "Parcelle privée",
+        "NATURE DE LA PARCELLE": "Individuelle",
+        "TYPE DE DROIT": "Propriété présumée",
+        "TYPE DE PERSONNE": "Personne physique",
+        "SEXE": "Masculin"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              2.252622584910582,
+              6.380222544604187
+            ],
+            [
+              2.2528492330115597,
+              6.3802152706886455
+            ],
+            [
+              2.252843854518221,
+              6.380035918902534
+            ],
+            [
+              2.2526169961869935,
+              6.38004217497665
+            ],
+            [
+              2.252622584910582,
+              6.380222544604187
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 273,
+        "CODE INSAE": "0310202",
+        "DEPARTEMENT": "ATLANTIQUE",
+        "COMMUNE": "ABOMEY-CALAVI",
+        "ARRONDISSEMENT": "GODOMEY",
+        "VILLAGE_QUARTIER": "AGBO-CODJI-SEDEGBE",
+        "CODE_BLOC": "IR088-03102020018",
+        "CODE_PARCELLE": "0018",
+        "CODE_EQUIPE": "1302",
+        "SUPERFICIE": 288,
+        "EL_NUMERO_ETAT_LIEUX": "1018h",
+        "EL_LOT": "72",
+        "EL_LETTRE_PARCELLE": "h",
+        "RFU_QUARTIER_OU_ZONE": "AGBO-CODJI-SEDEGBE",
+        "RFU_ILOT": "",
+        "RFU_LETTRE_PARCELLE": "",
+        "DATE_COLLECTE": null,
+        "NOM_LOTISSEMENT": "GODOMEY 2ème TRANCHE",
+        "CODE EQUIPE": "1302",
+        "CODE BLOC": "IR088-03102020018",
+        "CODE PARCELLE": "0018",
+        "TYPE DE PARCELLE": "Parcelle privée",
+        "NATURE DE LA PARCELLE": "Individuelle",
+        "TYPE DE DROIT": "Propriété présumée",
+        "TYPE DE PERSONNE": "Personne physique",
+        "SEXE": "Masculin"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              2.319995595447742,
+              6.383477820825128
+            ],
+            [
+              2.320158482247413,
+              6.383474136292435
+            ],
+            [
+              2.320146873258941,
+              6.383322080392495
+            ],
+            [
+              2.3199918318187494,
+              6.38333419399108
+            ],
+            [
+              2.319995595447742,
+              6.383477820825128
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 283,
+        "CODE INSAE": null,
+        "DEPARTEMENT": "ATLANTIQUE",
+        "COMMUNE": "ABOMEY-CALAVI",
+        "ARRONDISSEMENT": "ABOMEY-CALAVI",
+        "VILLAGE_QUARTIER": "SEME",
+        "CODE_BLOC": "IR073-03151120018",
+        "CODE_PARCELLE": "0018",
+        "CODE_EQUIPE": "1007",
+        "SUPERFICIE": 366,
+        "EL_NUMERO_ETAT_LIEUX": "",
+        "EL_LOT": "158S",
+        "EL_LETTRE_PARCELLE": "i",
+        "RFU_QUARTIER_OU_ZONE": "",
+        "RFU_ILOT": "",
+        "RFU_LETTRE_PARCELLE": "",
+        "DATE_COLLECTE": null,
+        "NOM_LOTISSEMENT": "",
+        "CODE EQUIPE": null,
+        "CODE BLOC": null,
+        "CODE PARCELLE": null,
+        "TYPE DE PARCELLE": null,
+        "NATURE DE LA PARCELLE": null,
+        "TYPE DE DROIT": null,
+        "TYPE DE PERSONNE": null,
+        "SEXE": null
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              2.344916693072537,
+              6.458785932641159
+            ],
+            [
+              2.3449552304950965,
+              6.458585612487342
+            ],
+            [
+              2.3447944703165944,
+              6.458581540293609
+            ],
+            [
+              2.344770252790985,
+              6.45876618839424
+            ],
+            [
+              2.344916693072537,
+              6.458785932641159
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 278,
+        "CODE INSAE": "0375114",
+        "DEPARTEMENT": "ATLANTIQUE",
+        "COMMUNE": "TORI-BOSSITO",
+        "ARRONDISSEMENT": "TORI-BOSSITO",
+        "VILLAGE_QUARTIER": "TOCOLI",
+        "CODE_BLOC": "IR087-03751140069",
+        "CODE_PARCELLE": "0069",
+        "CODE_EQUIPE": "1005",
+        "SUPERFICIE": 1512,
+        "EL_NUMERO_ETAT_LIEUX": null,
+        "EL_LOT": null,
+        "EL_LETTRE_PARCELLE": null,
+        "RFU_QUARTIER_OU_ZONE": null,
+        "RFU_ILOT": null,
+        "RFU_LETTRE_PARCELLE": null,
+        "DATE_COLLECTE": null,
+        "NOM_LOTISSEMENT": null,
+        "CODE EQUIPE": "1005",
+        "CODE BLOC": "IR087-03751140069",
+        "CODE PARCELLE": "0069",
+        "TYPE DE PARCELLE": "Parcelle privée",
+        "NATURE DE LA PARCELLE": "Individuelle",
+        "TYPE DE DROIT": "Propriété présumée",
+        "TYPE DE PERSONNE": "Personne physique",
+        "SEXE": "Masculin"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              2.173024736840088,
+              6.46267659857965
+            ],
+            [
+              2.173428002984312,
+              6.462839697217305
+            ],
+            [
+              2.1735366730553274,
+              6.462588180894368
+            ],
+            [
+              2.173099741217055,
+              6.462413386438033
+            ],
+            [
+              2.173024736840088,
+              6.46267659857965
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 281,
+        "CODE INSAE": "0315113",
+        "DEPARTEMENT": "ATLANTIQUE",
+        "COMMUNE": "ABOMEY-CALAVI",
+        "ARRONDISSEMENT": "ABOMEY-CALAVI",
+        "VILLAGE_QUARTIER": "TANKPE",
+        "CODE_BLOC": "IR103-03151130019",
+        "CODE_PARCELLE": "0019",
+        "CODE_EQUIPE": "2025",
+        "SUPERFICIE": 354,
+        "EL_NUMERO_ETAT_LIEUX": "6985",
+        "EL_LOT": "547A",
+        "EL_LETTRE_PARCELLE": "l",
+        "RFU_QUARTIER_OU_ZONE": "",
+        "RFU_ILOT": "",
+        "RFU_LETTRE_PARCELLE": "",
+        "DATE_COLLECTE": null,
+        "NOM_LOTISSEMENT": null,
+        "CODE EQUIPE": "2025",
+        "CODE BLOC": "IR103-03151130019",
+        "CODE PARCELLE": "0019",
+        "TYPE DE PARCELLE": "Parcelle privée",
+        "NATURE DE LA PARCELLE": "Individuelle",
+        "TYPE DE DROIT": "Propriété présumée",
+        "TYPE DE PERSONNE": "Personne physique",
+        "SEXE": "Féminin"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              2.3316536961868772,
+              6.436262994431728
+            ],
+            [
+              2.331717411908749,
+              6.436235620422123
+            ],
+            [
+              2.331737158655878,
+              6.436194733072415
+            ],
+            [
+              2.331701134419472,
+              6.435994423512046
+            ],
+            [
+              2.3315529301428746,
+              6.436060352338677
+            ],
+            [
+              2.3316536961868772,
+              6.436262994431728
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 282,
+        "CODE INSAE": "0310226",
+        "DEPARTEMENT": "ATLANTIQUE",
+        "COMMUNE": "ABOMEY-CALAVI",
+        "ARRONDISSEMENT": "GODOMEY",
+        "VILLAGE_QUARTIER": "HEDOME",
+        "CODE_BLOC": "IR103-03102260018",
+        "CODE_PARCELLE": "0018",
+        "CODE_EQUIPE": "2025",
+        "SUPERFICIE": 313,
+        "EL_NUMERO_ETAT_LIEUX": "0636g-f",
+        "EL_LOT": "86",
+        "EL_LETTRE_PARCELLE": "h",
+        "RFU_QUARTIER_OU_ZONE": "",
+        "RFU_ILOT": "",
+        "RFU_LETTRE_PARCELLE": "",
+        "DATE_COLLECTE": null,
+        "NOM_LOTISSEMENT": "",
+        "CODE EQUIPE": "2025",
+        "CODE BLOC": "IR103-03102260018",
+        "CODE PARCELLE": "0018",
+        "TYPE DE PARCELLE": "Parcelle privée",
+        "NATURE DE LA PARCELLE": "Individuelle",
+        "TYPE DE DROIT": "Propriété présumée",
+        "TYPE DE PERSONNE": "Personne physique",
+        "SEXE": "Féminin"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              2.308629236355674,
+              6.373757683338964
+            ],
+            [
+              2.3087259848241923,
+              6.373711986727
+            ],
+            [
+              2.308669197843509,
+              6.373509468313771
+            ],
+            [
+              2.308544899275935,
+              6.373555652300433
+            ],
+            [
+              2.308629236355674,
+              6.373757683338964
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 211,
+        "CODE INSAE": "0310209",
+        "DEPARTEMENT": "ATLANTIQUE",
+        "COMMUNE": "ABOMEY-CALAVI",
+        "ARRONDISSEMENT": "GODOMEY",
+        "VILLAGE_QUARTIER": "COCOCODJI",
+        "CODE_BLOC": "IR103-03102090008",
+        "CODE_PARCELLE": "0008",
+        "CODE_EQUIPE": "2025",
+        "SUPERFICIE": 347,
+        "EL_NUMERO_ETAT_LIEUX": "",
+        "EL_LOT": "56",
+        "EL_LETTRE_PARCELLE": "c",
+        "RFU_QUARTIER_OU_ZONE": "",
+        "RFU_ILOT": null,
+        "RFU_LETTRE_PARCELLE": null,
+        "DATE_COLLECTE": null,
+        "NOM_LOTISSEMENT": "godomey 2ème Tranche",
+        "CODE EQUIPE": "2025",
+        "CODE BLOC": "IR103-03102090008",
+        "CODE PARCELLE": "0008",
+        "TYPE DE PARCELLE": "Parcelle privée",
+        "NATURE DE LA PARCELLE": "Individuelle",
+        "TYPE DE DROIT": "Propriété présumée",
+        "TYPE DE PERSONNE": "Personne physique",
+        "SEXE": "Masculin"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              2.272866884403006,
+              6.3938352789837865
+            ],
+            [
+              2.272915886762881,
+              6.3936616239705835
+            ],
+            [
+              2.2727643310621963,
+              6.393619330825729
+            ],
+            [
+              2.272716319202325,
+              6.393793993398259
+            ],
+            [
+              2.272866884403006,
+              6.3938352789837865
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 280,
+        "CODE INSAE": "0315102",
+        "DEPARTEMENT": "ATLANTIQUE",
+        "COMMUNE": "ABOMEY-CALAVI",
+        "ARRONDISSEMENT": "ABOMEY-CALAVI",
+        "VILLAGE_QUARTIER": "AGORI",
+        "CODE_BLOC": "IR087-03151020001",
+        "CODE_PARCELLE": "0001",
+        "CODE_EQUIPE": "1001",
+        "SUPERFICIE": 349,
+        "EL_NUMERO_ETAT_LIEUX": "1745h",
+        "EL_LOT": "312A",
+        "EL_LETTRE_PARCELLE": "i",
+        "RFU_QUARTIER_OU_ZONE": null,
+        "RFU_ILOT": null,
+        "RFU_LETTRE_PARCELLE": null,
+        "DATE_COLLECTE": null,
+        "NOM_LOTISSEMENT": null,
+        "CODE EQUIPE": "1001",
+        "CODE BLOC": "IR087-03151020001",
+        "CODE PARCELLE": "0001",
+        "TYPE DE PARCELLE": "Parcelle privée",
+        "NATURE DE LA PARCELLE": "Individuelle",
+        "TYPE DE DROIT": "Propriété présumée",
+        "TYPE DE PERSONNE": "Personne physique",
+        "SEXE": "Masculin"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              2.3446672010413785,
+              6.440317925706984
+            ],
+            [
+              2.344848040276562,
+              6.440402082136489
+            ],
+            [
+              2.3448929932314964,
+              6.4403021505319105
+            ],
+            [
+              2.344884370489833,
+              6.440257246361962
+            ],
+            [
+              2.3447514236888494,
+              6.440178895244983
+            ],
+            [
+              2.3446672010413785,
+              6.440317925706984
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 279,
+        "CODE INSAE": "1055110",
+        "DEPARTEMENT": "OUEME",
+        "COMMUNE": "AVRANKOU",
+        "ARRONDISSEMENT": "AVRANKOU",
+        "VILLAGE_QUARTIER": "SEDJE",
+        "CODE_BLOC": "IR087-10551100037",
+        "CODE_PARCELLE": "0037",
+        "CODE_EQUIPE": "1001",
+        "SUPERFICIE": 1258,
+        "EL_NUMERO_ETAT_LIEUX": null,
+        "EL_LOT": null,
+        "EL_LETTRE_PARCELLE": null,
+        "RFU_QUARTIER_OU_ZONE": null,
+        "RFU_ILOT": null,
+        "RFU_LETTRE_PARCELLE": null,
+        "DATE_COLLECTE": null,
+        "NOM_LOTISSEMENT": null,
+        "CODE EQUIPE": "1001",
+        "CODE BLOC": "IR087-10551100037",
+        "CODE PARCELLE": "0037",
+        "TYPE DE PARCELLE": "Parcelle privée",
+        "NATURE DE LA PARCELLE": "Individuelle",
+        "TYPE DE DROIT": "Propriété présumée",
+        "TYPE DE PERSONNE": "Personne morale de droit privé",
+        "SEXE": null
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              2.6539960546580232,
+              6.554376249815774
+            ],
+            [
+              2.6540600379063934,
+              6.554387744807921
+            ],
+            [
+              2.6542999892034596,
+              6.554399652211898
+            ],
+            [
+              2.6542936406756623,
+              6.5540429834028995
+            ],
+            [
+              2.6540470971103245,
+              6.553997882701519
+            ],
+            [
+              2.6539960546580232,
+              6.554376249815774
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 232,
+        "CODE INSAE": "0310814",
+        "DEPARTEMENT": "ATLANTIQUE",
+        "COMMUNE": "ABOMEY-CALAVI",
+        "ARRONDISSEMENT": "ZINVIE",
+        "VILLAGE_QUARTIER": "ZINVIE-FANDJI",
+        "CODE_BLOC": "IR102-03108140011",
+        "CODE_PARCELLE": "0011",
+        "CODE_EQUIPE": "1302",
+        "SUPERFICIE": 1000,
+        "EL_NUMERO_ETAT_LIEUX": "",
+        "EL_LOT": "",
+        "EL_LETTRE_PARCELLE": "",
+        "RFU_QUARTIER_OU_ZONE": "",
+        "RFU_ILOT": null,
+        "RFU_LETTRE_PARCELLE": null,
+        "DATE_COLLECTE": null,
+        "NOM_LOTISSEMENT": "",
+        "CODE EQUIPE": "1302",
+        "CODE BLOC": "IR102-03108140011",
+        "CODE PARCELLE": "0011",
+        "TYPE DE PARCELLE": "Parcelle privée",
+        "NATURE DE LA PARCELLE": "Individuelle",
+        "TYPE DE DROIT": "Propriété présumée",
+        "TYPE DE PERSONNE": "Personne physique",
+        "SEXE": "Masculin"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              2.343993897850895,
+              6.617960389326555
+            ],
+            [
+              2.3440090727822214,
+              6.617668895338046
+            ],
+            [
+              2.3440032251797596,
+              6.617668728473786
+            ],
+            [
+              2.3438696205613105,
+              6.617666091587778
+            ],
+            [
+              2.3437398593690277,
+              6.617662297430369
+            ],
+            [
+              2.343726648194668,
+              6.617780436172046
+            ],
+            [
+              2.3436992926608182,
+              6.617952526734519
+            ],
+            [
+              2.343853709347339,
+              6.6179576577688
+            ],
+            [
+              2.343993897850895,
+              6.617960389326555
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 285,
+        "CODE INSAE": "0310242",
+        "DEPARTEMENT": "ATLANTIQUE",
+        "COMMUNE": "ABOMEY-CALAVI",
+        "ARRONDISSEMENT": "GODOMEY",
+        "VILLAGE_QUARTIER": "TOGBIN DAHO",
+        "CODE_BLOC": "IR088-03102420020",
+        "CODE_PARCELLE": "0020",
+        "CODE_EQUIPE": "1302",
+        "SUPERFICIE": 336,
+        "EL_NUMERO_ETAT_LIEUX": "4622",
+        "EL_LOT": "108",
+        "EL_LETTRE_PARCELLE": "c'",
+        "RFU_QUARTIER_OU_ZONE": "TOGBIN DAHO",
+        "RFU_ILOT": "",
+        "RFU_LETTRE_PARCELLE": "",
+        "DATE_COLLECTE": null,
+        "NOM_LOTISSEMENT": "TOGBIN ZONE 5",
+        "CODE EQUIPE": "1302",
+        "CODE BLOC": "IR088-03102420020",
+        "CODE PARCELLE": "0020",
+        "TYPE DE PARCELLE": "Parcelle privée",
+        "NATURE DE LA PARCELLE": "Individuelle",
+        "TYPE DE DROIT": "Propriété présumée",
+        "TYPE DE PERSONNE": "Personne physique",
+        "SEXE": "Masculin"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              2.305281171932464,
+              6.360500413103995
+            ],
+            [
+              2.3052903376322402,
+              6.360327692585172
+            ],
+            [
+              2.3051300949426943,
+              6.36032132895292
+            ],
+            [
+              2.305122063998561,
+              6.360491944281091
+            ],
+            [
+              2.305281171932464,
+              6.360500413103995
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 291,
+        "CODE INSAE": "0375115",
+        "DEPARTEMENT": "ATLANTIQUE",
+        "COMMUNE": "TORI-BOSSITO",
+        "ARRONDISSEMENT": "TORI-BOSSITO",
+        "VILLAGE_QUARTIER": "TOGOUDO",
+        "CODE_BLOC": "IR102-03751150017",
+        "CODE_PARCELLE": "0017",
+        "CODE_EQUIPE": "1302",
+        "SUPERFICIE": 9738,
+        "EL_NUMERO_ETAT_LIEUX": "",
+        "EL_LOT": "",
+        "EL_LETTRE_PARCELLE": "",
+        "RFU_QUARTIER_OU_ZONE": "",
+        "RFU_ILOT": "",
+        "RFU_LETTRE_PARCELLE": "",
+        "DATE_COLLECTE": null,
+        "NOM_LOTISSEMENT": "",
+        "CODE EQUIPE": "1302",
+        "CODE BLOC": "IR102-03751150017",
+        "CODE PARCELLE": "0017",
+        "TYPE DE PARCELLE": "Parcelle privée",
+        "NATURE DE LA PARCELLE": "Individuelle",
+        "TYPE DE DROIT": "Propriété présumée",
+        "TYPE DE PERSONNE": "Personne physique",
+        "SEXE": "Masculin"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              2.127386829215841,
+              6.486786389617849
+            ],
+            [
+              2.1274789277146815,
+              6.486710752166989
+            ],
+            [
+              2.1275823705210133,
+              6.486626088155021
+            ],
+            [
+              2.1279560643191706,
+              6.486322882251536
+            ],
+            [
+              2.1280007478331497,
+              6.486285525602118
+            ],
+            [
+              2.1281282099383723,
+              6.486178425961926
+            ],
+            [
+              2.12824618809803,
+              6.486079595650821
+            ],
+            [
+              2.1278816312239197,
+              6.485592144598309
+            ],
+            [
+              2.127829606316159,
+              6.485621639408778
+            ],
+            [
+              2.1268656735349216,
+              6.486202579443535
+            ],
+            [
+              2.1270149725066085,
+              6.4863705399374805
+            ],
+            [
+              2.127177785881887,
+              6.486551959971326
+            ],
+            [
+              2.127386829215841,
+              6.486786389617849
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 287,
+        "CODE INSAE": "0315111",
+        "DEPARTEMENT": "ATLANTIQUE",
+        "COMMUNE": "ABOMEY-CALAVI",
+        "ARRONDISSEMENT": "ABOMEY-CALAVI",
+        "VILLAGE_QUARTIER": "KANSOUNKPA",
+        "CODE_BLOC": "IR073-03151110020",
+        "CODE_PARCELLE": "0020",
+        "CODE_EQUIPE": "1003",
+        "SUPERFICIE": 306,
+        "EL_NUMERO_ETAT_LIEUX": "2901m",
+        "EL_LOT": "F-42",
+        "EL_LETTRE_PARCELLE": "a",
+        "RFU_QUARTIER_OU_ZONE": "",
+        "RFU_ILOT": "",
+        "RFU_LETTRE_PARCELLE": "",
+        "DATE_COLLECTE": null,
+        "NOM_LOTISSEMENT": "Kansounkpa suite",
+        "CODE EQUIPE": "1003",
+        "CODE BLOC": "IR073-03151110020",
+        "CODE PARCELLE": "0020",
+        "TYPE DE PARCELLE": "Parcelle privée",
+        "NATURE DE LA PARCELLE": "Individuelle",
+        "TYPE DE DROIT": "Propriété présumée",
+        "TYPE DE PERSONNE": "Personne physique",
+        "SEXE": "Féminin"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              2.3177525601754354,
+              6.510205147339391
+            ],
+            [
+              2.3178494678765973,
+              6.510172320053686
+            ],
+            [
+              2.3177869854783313,
+              6.509970779779184
+            ],
+            [
+              2.3176783158641845,
+              6.510068032721761
+            ],
+            [
+              2.3176715361720825,
+              6.510106206826633
+            ],
+            [
+              2.3177139983789234,
+              6.510189959760516
+            ],
+            [
+              2.3177525601754354,
+              6.510205147339391
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 294,
+        "CODE INSAE": "0310807",
+        "DEPARTEMENT": "ATLANTIQUE",
+        "COMMUNE": "ABOMEY-CALAVI",
+        "ARRONDISSEMENT": "ZINVIE",
+        "VILLAGE_QUARTIER": "KPOTOMEY",
+        "CODE_BLOC": "IR077-03108070011",
+        "CODE_PARCELLE": "0011",
+        "CODE_EQUIPE": null,
+        "SUPERFICIE": 1185,
+        "EL_NUMERO_ETAT_LIEUX": null,
+        "EL_LOT": null,
+        "EL_LETTRE_PARCELLE": null,
+        "RFU_QUARTIER_OU_ZONE": null,
+        "RFU_ILOT": null,
+        "RFU_LETTRE_PARCELLE": null,
+        "DATE_COLLECTE": null,
+        "NOM_LOTISSEMENT": null,
+        "CODE EQUIPE": null,
+        "CODE BLOC": "IR077-03108070011",
+        "CODE PARCELLE": "0011",
+        "TYPE DE PARCELLE": "Parcelle privée",
+        "NATURE DE LA PARCELLE": "Individuelle",
+        "TYPE DE DROIT": "Propriété présumée",
+        "TYPE DE PERSONNE": "Personne physique",
+        "SEXE": "Masculin"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              2.354302558388787,
+              6.638598663120573
+            ],
+            [
+              2.354552047719905,
+              6.638586686151214
+            ],
+            [
+              2.3545380748203146,
+              6.638430930941947
+            ],
+            [
+              2.354534317222923,
+              6.638384866173365
+            ],
+            [
+              2.3544778210783393,
+              6.638163502578199
+            ],
+            [
+              2.3542773507949337,
+              6.638206162533432
+            ],
+            [
+              2.3542857922520954,
+              6.63835109207503
+            ],
+            [
+              2.354302558388787,
+              6.638598663120573
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 257,
+        "CODE INSAE": "0310807",
+        "DEPARTEMENT": "ATLANTIQUE",
+        "COMMUNE": "ABOMEY-CALAVI",
+        "ARRONDISSEMENT": "ZINVIE",
+        "VILLAGE_QUARTIER": "KPOTOMEY",
+        "CODE_BLOC": "IR077-03108070012",
+        "CODE_PARCELLE": "0012",
+        "CODE_EQUIPE": null,
+        "SUPERFICIE": 7649,
+        "EL_NUMERO_ETAT_LIEUX": null,
+        "EL_LOT": null,
+        "EL_LETTRE_PARCELLE": null,
+        "RFU_QUARTIER_OU_ZONE": null,
+        "RFU_ILOT": null,
+        "RFU_LETTRE_PARCELLE": null,
+        "DATE_COLLECTE": null,
+        "NOM_LOTISSEMENT": null,
+        "CODE EQUIPE": null,
+        "CODE BLOC": "IR077-03108070012",
+        "CODE PARCELLE": "0012",
+        "TYPE DE PARCELLE": "Parcelle privée",
+        "NATURE DE LA PARCELLE": "Individuelle",
+        "TYPE DE DROIT": "Propriété présumée",
+        "TYPE DE PERSONNE": "Personne physique",
+        "SEXE": "Masculin"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              2.354659677886255,
+              6.639500000413366
+            ],
+            [
+              2.3546669340254875,
+              6.639415976823433
+            ],
+            [
+              2.354652444009474,
+              6.639080730350886
+            ],
+            [
+              2.3546525413195574,
+              6.639006014340808
+            ],
+            [
+              2.3546513238585294,
+              6.6387599741437455
+            ],
+            [
+              2.3546529458630356,
+              6.638695391119722
+            ],
+            [
+              2.3546302700742365,
+              6.638671752741597
+            ],
+            [
+              2.3545520386381327,
+              6.638586713275998
+            ],
+            [
+              2.354302522167721,
+              6.638598690209998
+            ],
+            [
+              2.3542723066320765,
+              6.638599012667043
+            ],
+            [
+              2.353853518793701,
+              6.63862053799343
+            ],
+            [
+              2.3538761031335547,
+              6.638783658447848
+            ],
+            [
+              2.3538855138972563,
+              6.638851150413838
+            ],
+            [
+              2.35391022386707,
+              6.638979810146706
+            ],
+            [
+              2.3539184917420934,
+              6.639021882666651
+            ],
+            [
+              2.353933141071351,
+              6.639095803791654
+            ],
+            [
+              2.3539789999098706,
+              6.639239687592199
+            ],
+            [
+              2.354005040217035,
+              6.639319412707448
+            ],
+            [
+              2.3539950022242593,
+              6.639455444482377
+            ],
+            [
+              2.3543053818701245,
+              6.639458743549905
+            ],
+            [
+              2.354659677886255,
+              6.639500000413366
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 295,
+        "CODE INSAE": "0330806",
+        "DEPARTEMENT": "ATLANTIQUE",
+        "COMMUNE": "KPOMASSE",
+        "ARRONDISSEMENT": "TOKPA-DOME",
+        "VILLAGE_QUARTIER": "HOUETON",
+        "CODE_BLOC": "IR077-03308060015",
+        "CODE_PARCELLE": "0015",
+        "CODE_EQUIPE": null,
+        "SUPERFICIE": 14495,
+        "EL_NUMERO_ETAT_LIEUX": null,
+        "EL_LOT": null,
+        "EL_LETTRE_PARCELLE": null,
+        "RFU_QUARTIER_OU_ZONE": null,
+        "RFU_ILOT": null,
+        "RFU_LETTRE_PARCELLE": null,
+        "DATE_COLLECTE": null,
+        "NOM_LOTISSEMENT": null,
+        "CODE EQUIPE": null,
+        "CODE BLOC": "IR077-03308060015",
+        "CODE PARCELLE": "0015",
+        "TYPE DE PARCELLE": "Parcelle privée",
+        "NATURE DE LA PARCELLE": "Individuelle",
+        "TYPE DE DROIT": "Propriété présumée",
+        "TYPE DE PERSONNE": "Personne physique",
+        "SEXE": "Masculin"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              2.021540005226426,
+              6.507945980525155
+            ],
+            [
+              2.0219676469568015,
+              6.507847929948104
+            ],
+            [
+              2.0221496646424084,
+              6.5077719888088215
+            ],
+            [
+              2.0223661189060227,
+              6.507700953207371
+            ],
+            [
+              2.0224831885189927,
+              6.5076898012217645
+            ],
+            [
+              2.023318907724804,
+              6.507696445866271
+            ],
+            [
+              2.0233455483738174,
+              6.50769699481537
+            ],
+            [
+              2.0233778058009304,
+              6.506990156281214
+            ],
+            [
+              2.023350377681059,
+              6.506994670938175
+            ],
+            [
+              2.022379036724699,
+              6.507151729361602
+            ],
+            [
+              2.0213796297046667,
+              6.507310983654695
+            ],
+            [
+              2.0214513579539095,
+              6.5076725729360385
+            ],
+            [
+              2.021540005226426,
+              6.507945980525155
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 286,
+        "CODE INSAE": "0315111",
+        "DEPARTEMENT": "ATLANTIQUE",
+        "COMMUNE": "ABOMEY-CALAVI",
+        "ARRONDISSEMENT": "ABOMEY-CALAVI",
+        "VILLAGE_QUARTIER": "KANSOUNKPA",
+        "CODE_BLOC": "IR073-03151110004",
+        "CODE_PARCELLE": "0004",
+        "CODE_EQUIPE": "1003",
+        "SUPERFICIE": 261,
+        "EL_NUMERO_ETAT_LIEUX": "2889m",
+        "EL_LOT": "F-42",
+        "EL_LETTRE_PARCELLE": "w",
+        "RFU_QUARTIER_OU_ZONE": "",
+        "RFU_ILOT": "",
+        "RFU_LETTRE_PARCELLE": "",
+        "DATE_COLLECTE": null,
+        "NOM_LOTISSEMENT": "Kansounkpa suite",
+        "CODE EQUIPE": "1003",
+        "CODE BLOC": "IR073-03151110004",
+        "CODE PARCELLE": "0004",
+        "TYPE DE PARCELLE": "Parcelle privée",
+        "NATURE DE LA PARCELLE": "Individuelle",
+        "TYPE DE DROIT": "Propriété présumée",
+        "TYPE DE PERSONNE": "Personne physique",
+        "SEXE": "Féminin"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              2.3182095530665454,
+              6.509811585490593
+            ],
+            [
+              2.318309570293656,
+              6.509777704722116
+            ],
+            [
+              2.3182429112247576,
+              6.509562752218836
+            ],
+            [
+              2.318156397532866,
+              6.509640177130855
+            ],
+            [
+              2.3182095530665454,
+              6.509811585490593
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 296,
+        "CODE INSAE": "0310246",
+        "DEPARTEMENT": "ATLANTIQUE",
+        "COMMUNE": "ABOMEY-CALAVI",
+        "ARRONDISSEMENT": "GODOMEY",
+        "VILLAGE_QUARTIER": "WOMEY-CENTRE",
+        "CODE_BLOC": "IR072-03102460070",
+        "CODE_PARCELLE": "0070",
+        "CODE_EQUIPE": "1302",
+        "SUPERFICIE": 413,
+        "EL_NUMERO_ETAT_LIEUX": "0626r",
+        "EL_LOT": "W-3323",
+        "EL_LETTRE_PARCELLE": "h",
+        "RFU_QUARTIER_OU_ZONE": "",
+        "RFU_ILOT": "",
+        "RFU_LETTRE_PARCELLE": "",
+        "DATE_COLLECTE": null,
+        "NOM_LOTISSEMENT": "",
+        "CODE EQUIPE": "1302",
+        "CODE BLOC": "IR072-03102460070",
+        "CODE PARCELLE": "0070",
+        "TYPE DE PARCELLE": "Parcelle privée",
+        "NATURE DE LA PARCELLE": "Individuelle",
+        "TYPE DE DROIT": "Propriété présumée",
+        "TYPE DE PERSONNE": "Personne physique",
+        "SEXE": "Masculin"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              2.313217024835942,
+              6.407664516068549
+            ],
+            [
+              2.3133460786985047,
+              6.407575494520269
+            ],
+            [
+              2.3132707494295914,
+              6.4074514499463735
+            ],
+            [
+              2.313297879297083,
+              6.407434754202316
+            ],
+            [
+              2.313265733998566,
+              6.407391388888363
+            ],
+            [
+              2.313104305585608,
+              6.40750012143071
+            ],
+            [
+              2.313217024835942,
+              6.407664516068549
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 297,
+        "CODE INSAE": "0525213",
+        "DEPARTEMENT": "COLLINES",
+        "COMMUNE": "DASSA-ZOUME",
+        "ARRONDISSEMENT": "DASSA II",
+        "VILLAGE_QUARTIER": "MOUMOUDJI",
+        "CODE_BLOC": "IR067-05252130002",
+        "CODE_PARCELLE": "0002",
+        "CODE_EQUIPE": "1002",
+        "SUPERFICIE": 654,
+        "EL_NUMERO_ETAT_LIEUX": "0036d",
+        "EL_LOT": "02",
+        "EL_LETTRE_PARCELLE": "h,h1",
+        "RFU_QUARTIER_OU_ZONE": "",
+        "RFU_ILOT": "",
+        "RFU_LETTRE_PARCELLE": "",
+        "DATE_COLLECTE": null,
+        "NOM_LOTISSEMENT": "MOUMOUDJI",
+        "CODE EQUIPE": "1302",
+        "CODE BLOC": "IR067-05252130002",
+        "CODE PARCELLE": "0002",
+        "TYPE DE PARCELLE": "Parcelle privée",
+        "NATURE DE LA PARCELLE": "Individuelle",
+        "TYPE DE DROIT": "Propriété présumée",
+        "TYPE DE PERSONNE": "Personne physique",
+        "SEXE": "Feminin"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              2.1806392110087267,
+              7.788478135454444
+            ],
+            [
+              2.1806591680803145,
+              7.788462071465879
+            ],
+            [
+              2.1806705132961417,
+              7.788248529251872
+            ],
+            [
+              2.180528303100049,
+              7.788237954869614
+            ],
+            [
+              2.180515483739718,
+              7.788236849000393
+            ],
+            [
+              2.1804415757595255,
+              7.788230473279918
+            ],
+            [
+              2.180422451343945,
+              7.78845988397742
+            ],
+            [
+              2.180507338358587,
+              7.788467599865225
+            ],
+            [
+              2.1806392110087267,
+              7.788478135454444
+            ]
+          ]
+        ]
+      }
+    }
+  ],
+  "properties": {
+    "conversion_info": {
+      "original_crs": "urn:ogc:def:crs:EPSG::32631",
+      "target_crs": "EPSG:4326 (WGS84)",
+      "conversion_algorithm": "UTM Zone 31N to WGS84 (Bénin optimized)",
+      "converted_features": 77,
+      "total_features": 77,
+      "reference_point": "UTM(451570.19, 727348.97) -> WGS84(6.575°N, 2.6502°E)"
+    }
+  }
+}

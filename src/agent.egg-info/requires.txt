@@ -1,0 +1,13 @@
+langgraph>=0.2.6
+langchain>=0.3.19
+langchain-google-genai
+python-dotenv>=1.0.1
+langgraph-sdk>=0.1.57
+langgraph-cli
+langgraph-api
+fastapi
+google-genai
+
+[dev]
+mypy>=1.11.1
+ruff>=0.6.1
