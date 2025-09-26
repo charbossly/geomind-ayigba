@@ -16,7 +16,7 @@ except ImportError:
 class LayerManager:
     """Gestionnaire des couches géographiques GeoJSON"""
     
-    def __init__(self, layers_directory: str = "couche"):
+    def __init__(self, layers_directory: str = "src/couche"):
         self.layers_directory = layers_directory
         self.layers = {}
         self.layer_metadata = {}
