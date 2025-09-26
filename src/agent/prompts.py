@@ -79,3 +79,13 @@ Contexte utilisateur :
 Résumés de recherche :
 {summaries}
 """
+
+ROUTING_PROMPT = """
+Ta seule tâche est de classifier la question de l'utilisateur.
+Si la question est liée de près ou de loin au domaine foncier, à l'immobilier, au cadastre, aux parcelles ou aux titres de propriété au Bénin, réponds "foncier".
+Si la question est une salutation, une conversation générale ou porte sur tout autre sujet, réponds "hors_sujet".
+
+Ne réponds QUE par "foncier" ou "hors_sujet", sans aucune autre explication.
+
+Question de l'utilisateur : "{user_question}"
+"""

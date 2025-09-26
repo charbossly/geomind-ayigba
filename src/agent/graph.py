@@ -22,6 +22,7 @@ from .prompts import (
     web_searcher_instructions,
     reflection_instructions,
     answer_instructions,
+    ROUTING_PROMPT
 )
 from langchain_google_genai import ChatGoogleGenerativeAI
 from .utils import (
@@ -263,11 +264,56 @@ def finalize_answer(state: OverallState, config: RunnableConfig):
         "messages": [AIMessage(content=result.content)],
         "sources_gathered": unique_sources,
     }
+def route_question(state: OverallState, config: RunnableConfig):
+    """
+    Analyse la question de l'utilisateur et la route vers le bon chemin.
+    """
+    print("--- 1. NŒUD DE TRIAGE : Analyse de la question ---")
+    configurable = Configuration.from_runnable_config(config)
+    
+    # Utiliser un modèle rapide et peu coûteux pour la classification
+    llm = ChatGoogleGenerativeAI(
+        model=configurable.query_generator_model, # On peut réutiliser le modèle "flash"
+        temperature=0,
+        api_key=os.getenv("GEMINI_API_KEY"),
+    )
+    
+    user_question = get_research_topic(state["messages"])
+    
+    prompt = ROUTING_PROMPT.format(user_question=user_question)
+    
+    result = llm.invoke(prompt)
+    decision = result.content.lower()
+
+    print(f"--- Décision du triage : {result.content} ---")
+
+    if "foncier" in decision:
+        return {"next_route": "foncier"}
+    else:
+        return {"next_route": "hors_sujet"}
+
+# NOUVEAU NŒUD POUR LES RÉPONSES HORS-SUJET
+def answer_off_topic(state: OverallState):
+    """
+    Génère une réponse prédéfinie pour les questions non liées au foncier.
+    """
+    print("--- GÉRER LA QUESTION HORS-SUJET ---")
+    
+    off_topic_response = (
+        "Bonjour ! Je suis un assistant spécialisé dans le domaine foncier au Bénin. "
+        "Je peux répondre à vos questions sur les titres fonciers, les procédures cadastrales, les lois immobilières, etc. "
+        "Comment puis-je vous aider sur ce sujet ?"
+    )
+    
+    return {
+        "messages": [AIMessage(content=off_topic_response)]
+    }
 
 
 # Create our Agent Graph
 builder = StateGraph(OverallState, config_schema=Configuration)
-
+builder.add_node("route_question", route_question)
+builder.add_node("answer_off_topic", answer_off_topic)
 # Define the nodes we will cycle between
 builder.add_node("generate_query", generate_query)
 builder.add_node("web_research", web_research)
@@ -276,7 +322,34 @@ builder.add_node("finalize_answer", finalize_answer)
 
 # Set the entrypoint as `generate_query`
 # This means that this node is the first one called
-builder.add_edge(START, "generate_query")
+# builder.add_edge(START, "generate_query")
+builder.add_edge(START, "route_question")
+
+# builder.add_conditional_edges(
+#     "route_question", # Le nœud source
+#     lambda x: x,      # La fonction de décision (qui retourne simplement le résultat du nœud)
+#     {
+#         # Si le résultat est "foncier", on lance le processus de recherche normal
+#         "foncier": "generate_query",
+#         # Si le résultat est "hors_sujet", on va vers notre réponse simple
+#         "hors_sujet": "answer_off_topic"
+#     }
+# )
+builder.add_conditional_edges(
+        "route_question",
+        lambda state: state["next_route"],
+        {
+            "foncier": "generate_query",
+            "hors_sujet": "answer_off_topic"
+        }
+    )
+
+# 3. La branche "hors_sujet" se termine directement
+builder.add_edge("answer_off_topic", END)
+
+
+
+
 # Add conditional edge to continue with search queries in a parallel branch
 builder.add_conditional_edges(
     "generate_query", continue_to_web_research, ["web_research"]
