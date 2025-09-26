@@ -5,6 +5,8 @@ from dotenv import load_dotenv
 from flask_restx import Api, Resource, fields, reqparse
 from werkzeug.datastructures import FileStorage
 from werkzeug.utils import secure_filename
+from functools import wraps
+
 
 from pdf2image import convert_from_path
 from fpdf import FPDF
@@ -14,6 +16,99 @@ import uuid # Pour générer des noms de fichiers uniques
 # LangChain/LangGraph imports
 from langchain_core.messages import HumanMessage
 import time # On importe time pour nettoyer les vieux fichiers
+import requests
+import zipfile
+import shutil
+import gdown 
+import datetime
+from models import db, ProcessingRequest
+
+# Charger les variables d'environnement depuis le fichier .env
+# Assurez-vous que votre GEMINI_API_KEY est dans ce fichier
+load_dotenv()
+
+def download_and_extract_layers():
+    """
+    Télécharge et FUSIONNE les couches depuis Google Drive.
+    Attention : ne supprime pas les anciens fichiers qui n'existent plus dans le zip.
+    """
+    file_id = os.getenv('GDRIVE_LAYERS_ZIP_FILE_ID')
+    destination_folder = os.path.join('src', 'couche') # C'est ici que les fichiers doivent aller
+    zip_output_path = 'layers_temp.zip'
+    
+    # --- DÉBUT DE LA NOUVELLE LOGIQUE DE VÉRIFICATION ---
+    
+    # On vérifie la variable pour forcer le téléchargement
+    force_download = os.getenv('FORCE_DOWNLOAD_LAYERS', 'false').lower() == 'true'
+    
+    # On vérifie si le dossier existe déjà et contient des fichiers
+    # os.listdir() listera les fichiers/dossiers, donc s'il n'est pas vide, la condition est vraie
+    layers_exist = os.path.exists(destination_folder) and os.listdir(destination_folder)
+    
+    if layers_exist and not force_download:
+        print(f"✅ INFO: Le dossier de couches '{destination_folder}' existe déjà. Le téléchargement est ignoré.")
+        print(" (Pour forcer le téléchargement, mettez FORCE_DOWNLOAD_LAYERS=true dans votre fichier .env)")
+        return # On arrête la fonction ici
+    
+    if force_download:
+        print("INFO: Le téléchargement des couches est forcé via la variable d'environnement.")
+
+    # --- FIN DE LA NOUVELLE LOGIQUE DE VÉRIFICATION ---
+    
+    if not file_id:
+        print("INFO: Aucune variable GDRIVE_LAYERS_ZIP_FILE_ID trouvée. Utilisation des couches locales existantes.")
+        return
+
+    print(f"INFO: Démarrage du téléchargement des couches depuis Google Drive File ID : {file_id}")
+    
+    try:
+        # Étape 1: Télécharger le fichier zip avec gdown (très fiable)
+        gdown.download(id=file_id, output=zip_output_path, quiet=False)
+        
+        if not os.path.exists(zip_output_path):
+             raise FileNotFoundError("Le téléchargement avec gdown a échoué, le fichier zip n'a pas été créé.")
+        
+        print("INFO: Téléchargement réussi. Préparation de l'extraction...")
+        
+        # if os.path.exists(destination_folder):
+        #     print(f"INFO: Suppression de l'ancien dossier de couches : {destination_folder}")
+        #     shutil.rmtree(destination_folder)
+        # On s'assure que le dossier de destination existe.
+        os.makedirs(destination_folder, exist_ok=True)
+
+        # with zipfile.ZipFile(zip_output_path, 'r') as z:
+        #     print(f"INFO: Extraction des fichiers dans {destination_folder}...")
+        #     z.extractall(destination_folder)
+        with zipfile.ZipFile(zip_output_path, 'r') as z:
+            print(f"INFO: Extraction des fichiers dans {destination_folder}...")
+            for member in z.namelist():
+                # Supprimer le premier dossier s’il existe
+                filename = os.path.basename(member)
+                if not filename:  # si c'est un dossier, on ignore
+                    continue
+                source = z.open(member)
+                target = open(os.path.join(destination_folder, filename), "wb")
+                with source, target:
+                    shutil.copyfileobj(source, target)
+        
+        print("✅ INFO: Les couches ont été téléchargées et extraites avec succès.")
+
+    except Exception as e:
+        print(f"❌ ERREUR: Une erreur est survenue lors de la préparation des couches : {e}")
+
+    finally:
+        if os.path.exists(zip_output_path):
+            os.remove(zip_output_path)
+            print("INFO: Fichier zip temporaire supprimé.")
+
+# Exécuter la fonction de téléchargement immédiatement
+download_and_extract_layers()
+
+print("INFO: Initialisation du gestionnaire de couches...")
+# ==============================================================================
+# FIN DU BLOC DE DÉMARRAGE
+# ==============================================================================
+
 
 
 # --- IMPORTANT ---
@@ -26,26 +121,110 @@ from src.ocr_couche_superposition.ocr_processor import GeoOCRProcessor # Notre c
 from src.ocr_couche_superposition.layer_manager import layer_manager # L'instance déjà créée
 
 
-# Charger les variables d'environnement depuis le fichier .env
-# Assurez-vous que votre GEMINI_API_KEY est dans ce fichier
-load_dotenv()
-
 # Initialiser l'application Flask
 app = Flask(__name__)
 # Une clé secrète est OBLIGATOIRE pour utiliser la session Flask
 app.config['SECRET_KEY'] = os.getenv('SECRET_KEY', 'une-cle-secrete-tres-difficile-a-deviner')
 app.config['UPLOAD_FOLDER'] = os.getenv('UPLOAD_FOLDER', 'uploads')
+
+
+# --- CONFIGURATION DE LA BASE DE DONNÉES ---
+app.config['SQLALCHEMY_DATABASE_URI'] = os.getenv('DATABASE_URL')
+app.config['SQLALCHEMY_TRACK_MODIFICATIONS'] = False
+db.init_app(app) # Lie l'instance db à notre application Flask
+
+# ... (Le reste de la configuration CORS, API, etc. est inchangé)
+
+# --- CRÉATION DES TABLES DE LA DB ---
+with app.app_context():
+    print("INFO: Initialisation de la base de données...")
+    db.create_all()
+    print("✅ INFO: Les tables de la base de données sont prêtes.")
+
+
 os.makedirs(app.config['UPLOAD_FOLDER'], exist_ok=True)
 CORS(app)
 
 # --- INITIALISATION DES SERVICES ---
 ocr_processor = GeoOCRProcessor()
 
+ADMIN_EMAIL = "admin@example.com"
+ADMIN_PASSWORD = "password123"
+
 # Initialiser Flask-RESTX pour l'API et la documentation Swagger
 api = Api(app, version='1.0', title='API Agent LangGraph',
  description='Une API unifiée pour l\'agent conversationnel et le traitement de données géographiques.',
          doc='/doc/' # URL pour l'interface Swagger UI
 )
+
+
+# ==============================================================================
+# NAMESPACE 5: ADMIN (NOUVEAU)
+# ==============================================================================
+admin_ns = api.namespace('admin', description='Opérations pour le tableau de bord admin')
+
+# --- Logique d'Authentification ---
+def token_required(f):
+    @wraps(f)
+    def decorated(*args, **kwargs):
+        token = None
+        if 'Authorization' in request.headers:
+            token = request.headers['Authorization'].split(" ")[1]
+        if not token:
+            return {'message': 'Jeton manquant !'}, 401
+        try:
+            data = jwt.decode(token, app.config['SECRET_KEY'], algorithms=["HS256"])
+            # Vous pouvez utiliser 'data' pour vérifier l'utilisateur si nécessaire
+        except:
+            return {'message': 'Jeton invalide !'}, 401
+        return f(*args, **kwargs)
+    return decorated
+
+login_model = api.model('Login', {
+    'email': fields.String(required=True),
+    'password': fields.String(required=True),
+})
+
+@admin_ns.route('/auth/login')
+class Login(Resource):
+    @admin_ns.expect(login_model)
+    def post(self):
+        """Connecte un administrateur et retourne un jeton JWT."""
+        data = request.get_json()
+        if data.get('email') == ADMIN_EMAIL and data.get('password') == ADMIN_PASSWORD:
+            token = jwt.encode({
+                'user': data['email'],
+                'exp': datetime.datetime.utcnow() + datetime.timedelta(hours=24)
+            }, app.config['SECRET_KEY'], algorithm="HS256")
+            return {'token': token}
+        return {'message': 'Identifiants invalides'}, 403
+
+@admin_ns.route('/requests')
+class RequestList(Resource):
+    @admin_ns.doc(security='apiKey')
+    @token_required
+    def get(self):
+        """[Protégé] Récupère la liste de toutes les demandes depuis la BDD."""
+        try:
+            requests_from_db = ProcessingRequest.query.order_by(ProcessingRequest.timestamp.desc()).all()
+            return [req.to_summary_dict() for req in requests_from_db]
+        except Exception as e:
+            api.abort(500, f"Erreur de base de données: {e}")
+
+@admin_ns.route('/requests/<string:request_id>')
+class RequestDetail(Resource):
+    @admin_ns.doc(security='apiKey')
+    @token_required
+    def get(self, request_id):
+        """[Protégé] Récupère les détails complets d'une demande depuis la BDD."""
+        try:
+            request_item = ProcessingRequest.query.get(request_id)
+            if request_item:
+                return request_item.to_dict()
+            api.abort(404, f"Demande avec l'ID {request_id} non trouvée.")
+        except Exception as e:
+            api.abort(500, f"Erreur de base de données: {e}")
+
 
 # Namespace pour organiser les endpoints
 chat_ns = api.namespace('chat', description='Opérations de l\'agent')
@@ -298,14 +477,32 @@ class ProcessAndAnalyze(Resource):
             #     'geojson': geojson_data,
             #     'overlaps': overlaps_result
             # }, 200
+              # --- SAUVEGARDE DE LA DEMANDE DANS POSTGRESQL ---
+            new_request = ProcessingRequest(
+                filename=original_filename,
+                status='Traitée',
+                image_id=f"{file_id}.jpg" if original_filename.lower().endswith('.pdf') else f"{file_id}_{original_filename}",
+                geojson_data=geojson_data,
+                overlaps_data=overlaps_result
+            )
+            db.session.add(new_request)
+            db.session.commit()
+            # --- FIN DE LA SAUVEGARDE ---
+            # return {
+            #     'success': True,
+            #     'image_id': f"{file_id}.jpg" if original_filename.lower().endswith('.pdf') else f"{file_id}_{original_filename}",
+            #     'geojson': geojson_data,
+            #     'overlaps': overlaps_result
+            # }, 200
             return {
-                'success': True,
-                'image_id': f"{file_id}.jpg" if original_filename.lower().endswith('.pdf') else f"{file_id}_{original_filename}",
-                'geojson': geojson_data,
-                'overlaps': overlaps_result
+                'id': new_request.id,
+                'geojson': new_request.geojson_data,
+                'overlaps': new_request.overlaps_data,
+                'image_id': new_request.image_id
             }, 200
 
         except Exception as e:
+            db.session.rollback()
             # En cas d'erreur, on nettoie quand même
             if os.path.exists(original_filepath): os.remove(original_filepath)
             if image_to_process_path != original_filepath and os.path.exists(image_to_process_path): os.remove(image_to_process_path)
