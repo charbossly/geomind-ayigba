@@ -6,6 +6,9 @@ from flask_restx import Api, Resource, fields, reqparse
 from werkzeug.datastructures import FileStorage
 from werkzeug.utils import secure_filename
 from functools import wraps
+import threading 
+import jwt
+
 
 
 from pdf2image import convert_from_path
@@ -101,8 +104,13 @@ def download_and_extract_layers():
             os.remove(zip_output_path)
             print("INFO: Fichier zip temporaire supprimé.")
 
-# Exécuter la fonction de téléchargement immédiatement
-download_and_extract_layers()
+# # Exécuter la fonction de téléchargement immédiatement
+# download_and_extract_layers()
+print("INFO: Planification du téléchargement des couches en arrière-plan...")
+# daemon=True garantit que le thread s'arrêtera si l'application principale se termine.
+background_thread = threading.Thread(target=download_and_extract_layers, daemon=True)
+background_thread.start()
+
 
 print("INFO: Initialisation du gestionnaire de couches...")
 # ==============================================================================
@@ -263,7 +271,7 @@ class AgentExecutor(Resource):
 
             # On définit une configuration "rapide" pour l'exécution
             config = {
-                "recursion_limit": 5, # Limite de sécurité
+                "recursion_limit": 10, # Limite de sécurité
                 "configurable": {
                     # On force l'agent à ne générer qu'UNE seule requête de recherche.
                     "number_of_initial_queries": 1,

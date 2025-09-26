@@ -93,3 +93,4 @@ requests
 gdown
 flask_sqlalchemy
 psycopg2
+PyJWT 
